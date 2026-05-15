@@ -1,0 +1,990 @@
+User_ID,Recipe_ID,User_Rating,Age,Gender,BMI,Health_Condition,Dietary_Restriction,Preferred_Cuisine,Taste_Preference,Recipe_Name,Cuisine,Diet_Type,Cooking_Time,Calories,Protein_g,Carbs_g,Fat_g,Fiber_g,Vitamin_C_mg,Iron_mg,Calcium_mg,Nutrient_Score,Preference_Score,Recommended
+U082,R017,4,69,Other,23.3,None,Paleo,Mediterranean,Salty,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.9824224065008559,0.7538168601120532,1
+U070,R029,5,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.9970496725980524,0.6065646305037742,1
+U004,R052,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.6054107268274302,0.8488178895896028,1
+U039,R034,4,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.6587227402174204,0.8906587179242451,1
+U048,R040,4,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.6707549436847267,0.6621270178436102,1
+U013,R026,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Vegetable Quesadilla,Mexican,Vegetarian,20,280,12,28,12,4,25,2.5,200,0.6249497035932828,0.9065291437178975,1
+U005,R082,4,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.9285489788531933,0.6384738540436127,1
+U036,R062,5,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.6789036994648823,0.7772709547320802,1
+U012,R021,4,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.6691306401573403,0.5792431652985529,1
+U021,R087,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.7580946605190264,0.5981295552959623,1
+U068,R068,1,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.66966493984474,0.8172866959006373,0
+U046,R062,4,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9234458531487012,0.5350578831455044,1
+U060,R006,2,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.8893373041936772,0.6431937834454651,0
+U022,R094,5,42,Male,24.1,Underweight,Keto,Indian,Sour,Omelette,American,Breakfast,15,200,16,3,14,1,8,2.2,80,0.8690680511225681,0.8990851750748597,1
+U055,R059,3,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.9641986308678256,0.7364723632157854,0
+U080,R073,2,39,Other,19.5,Food Allergies,Paleo,French,Sour,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.8467782688680922,0.9272964988264478,0
+U019,R031,5,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.9509883889528223,0.6868812787334784,1
+U002,R001,3,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.8852617567754106,0.5884776116097408,0
+U088,R023,4,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.7264794337039792,0.9989562748151217,1
+U028,R003,5,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.9726888265018102,0.8398834445782811,1
+U017,R013,3,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.6263925047106678,0.6042027344504838,0
+U070,R044,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.8896923071277804,0.7814397891868988,1
+U021,R014,5,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.6219916523861646,0.8403337147038374,1
+U091,R015,3,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.6393971513253751,0.9533449536205134,0
+U067,R008,4,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.6114349102645528,0.8995580088555474,1
+U028,R018,4,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.9147260591610031,0.9964765628344568,1
+U033,R011,5,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.8207586549071135,0.6987984157656727,1
+U009,R049,4,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.9016496834095309,0.8066301070303429,1
+U008,R097,5,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.8502947557497911,0.6437554326571122,1
+U077,R044,4,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9840163918835356,0.9643253002955008,1
+U041,R102,5,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60,0.8951649953772276,0.9379338470677991,1
+U054,R060,4,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25,0.9291574101885116,0.5518236849459226,1
+U038,R085,5,24,Male,19.6,None,Keto,American,Bitter,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.7731963353508488,0.844077802936857,1
+U012,R036,3,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.9014630556932873,0.7787534658218555,0
+U069,R098,4,54,Male,27.3,Underweight,High-Protein,American,Tangy,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.7284136623170864,0.552274654677364,1
+U024,R057,4,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.6826000297126593,0.9251629963580728,1
+U079,R101,2,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.905031714548165,0.8930786549898551,0
+U056,R066,3,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.6229021253598489,0.7533155370148059,0
+U056,R083,2,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.9032023297569242,0.8059803116154542,0
+U026,R052,4,58,Male,25.7,Diabetes,Keto,Asian,Savory,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.8248290600410763,0.8460350648994274,1
+U100,R068,4,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.6304206851847085,0.8200899044756618,1
+U039,R040,5,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.6002953254484147,0.7468043088242645,1
+U070,R050,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.701302472529235,0.5120867442984003,1
+U099,R080,4,48,Other,20.5,Obesity,Vegan,Asian,Umami,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.9638562276497938,0.6706550204198689,1
+U031,R023,4,56,Female,25.5,None,Vegetarian,French,Savory,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.9673673839179134,0.5685187172061745,1
+U053,R097,5,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.8468875136433285,0.7026890026249395,1
+U033,R063,5,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.6982781323146856,0.6710259473788529,1
+U061,R002,4,66,Other,21.3,None,Gluten-Free,French,Sour,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.8739359277937906,0.883254496212529,1
+U076,R056,5,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.8688744886554891,0.6443986482943215,1
+U094,R031,5,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.8095216808640255,0.9326121775102864,1
+U090,R051,5,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.9932604292676026,0.7959847357237696,1
+U049,R040,5,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.8451854683898774,0.5535538672846559,1
+U047,R025,4,69,Male,23.6,None,Vegetarian,French,Umami,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.97853694254436,0.6257091255842097,1
+U065,R015,5,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.6586353658647744,0.5981061321664054,1
+U063,R079,5,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.8266697785648132,0.5378247175278397,1
+U028,R005,3,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.6253543848915959,0.8574529323986906,0
+U015,R019,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.7342365772533526,0.6120561044753396,1
+U020,R085,5,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.9548664623662433,0.5062582568634169,1
+U077,R048,5,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.9124481894410248,0.986831289004201,1
+U059,R003,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.9051834167451877,0.9214263230849344,1
+U044,R019,1,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.9962339712330666,0.7731375822466375,0
+U074,R064,4,67,Other,32.7,Obesity,Keto,French,Savory,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.8200135733730793,0.667699759741601,1
+U009,R060,1,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25,0.6512555249173254,0.6382280692911857,0
+U053,R059,2,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.6910487509810683,0.7605064709503091,0
+U086,R016,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.9766572756745029,0.9283204009190877,1
+U089,R062,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9428160429038488,0.9127953007964825,1
+U091,R056,2,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.7846006983217313,0.6166751281053814,0
+U017,R061,3,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.8308886721824885,0.6406519817884386,0
+U015,R016,3,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.8979266105010437,0.9508314250896066,0
+U037,R038,4,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.7594690488207301,0.5343268752399539,1
+U066,R010,4,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.9404031918049592,0.8779134102238507,1
+U018,R060,3,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25,0.7334696694808646,0.503882464629889,0
+U025,R012,4,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.6309960401307227,0.5136705732911491,1
+U065,R070,2,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.9633805201871262,0.5376460021090876,0
+U089,R050,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.7757483999516567,0.6941737734205142,1
+U086,R068,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.9093471747815125,0.9294647429147374,1
+U040,R001,3,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.7039437261866816,0.5260560335733088,0
+U095,R043,5,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40,0.8980275767303634,0.9673783692641404,1
+U080,R068,5,39,Other,19.5,Food Allergies,Paleo,French,Sour,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.6456968762618648,0.8832360946259084,1
+U022,R001,5,42,Male,24.1,Underweight,Keto,Indian,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.9369075128927845,0.8598164686264071,1
+U006,R065,3,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.8029344098299458,0.8995922497045176,0
+U024,R054,4,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.9469673664240522,0.7974974834621544,1
+U086,R020,2,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.90459114413095,0.8431139578761921,0
+U031,R057,2,56,Female,25.5,None,Vegetarian,French,Savory,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.89188729394359,0.80292069411642,0
+U009,R011,2,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.7790668180006999,0.8139156619445168,0
+U074,R068,4,67,Other,32.7,Obesity,Keto,French,Savory,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.8961508855340066,0.5112952752306492,1
+U065,R011,4,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.7525184942530445,0.8550514046645675,1
+U040,R085,4,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.848541935519971,0.7784644515494976,1
+U099,R020,1,48,Other,20.5,Obesity,Vegan,Asian,Umami,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.6143521902375418,0.8970872057701995,0
+U052,R023,4,22,Other,21.5,Digestive Issues,Gluten-Free,Asian,Salty,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.9929182057114332,0.8290022145458984,1
+U083,R012,4,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7305176864881147,0.7142440656999547,1
+U015,R093,2,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.617394351367916,0.505527784558601,0
+U092,R052,5,35,Other,31.3,None,High-Protein,Thai,Sour,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.7618177621537369,0.8848043170140436,1
+U061,R044,4,66,Other,21.3,None,Gluten-Free,French,Sour,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9402999366573899,0.6192192456429575,1
+U072,R009,4,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.6822378810989649,0.6276194207897362,1
+U004,R099,2,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.9953399907211921,0.7796454540413835,0
+U015,R086,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.8297947753488814,0.6452090148397845,1
+U003,R017,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.8495001802469961,0.8966962823594615,1
+U040,R038,5,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.9631894165829438,0.6810313162751505,1
+U009,R090,4,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.687055903927287,0.5320531127707226,1
+U042,R090,5,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.6740810124957651,0.7135931314013302,1
+U079,R073,5,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.8046727464507676,0.5252806335075457,1
+U017,R085,4,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.7372919687321272,0.6117705613072406,1
+U070,R066,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.9177560552261157,0.7604679860218126,1
+U082,R058,4,69,Other,23.3,None,Paleo,Mediterranean,Salty,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.7661321231625697,0.5623150745925554,1
+U023,R073,4,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.6446873269396635,0.7094104929025371,1
+U073,R075,4,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.6089270841233136,0.833388130980314,1
+U047,R069,4,69,Male,23.6,None,Vegetarian,French,Umami,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.7948342855406059,0.5232013351561737,1
+U069,R014,5,54,Male,27.3,Underweight,High-Protein,American,Tangy,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.8758054966668649,0.7444107935690986,1
+U053,R075,5,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.7065131627977441,0.995404628627881,1
+U040,R043,4,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40,0.6221236761783976,0.5034154103785502,1
+U058,R015,5,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.6571439413937477,0.7532050619893573,1
+U075,R081,5,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.7543435538985795,0.9492326190399202,1
+U045,R019,4,69,Other,21.7,None,Keto,French,Salty,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.8414239723678854,0.8927018451749889,1
+U004,R009,5,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.7371372638516422,0.7423787259062505,1
+U067,R051,2,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.9401048926296952,0.742287855657197,0
+U010,R014,5,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.8495040512845181,0.6893382901864081,1
+U092,R103,5,35,Other,31.3,None,High-Protein,Thai,Sour,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.7934531666336117,0.5463725235654544,1
+U031,R087,4,56,Female,25.5,None,Vegetarian,French,Savory,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.9824477721263476,0.6874834266926662,1
+U064,R083,4,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.6764939384403184,0.9877118190992229,1
+U100,R014,3,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.6412099540288559,0.8625352592287697,0
+U023,R053,1,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.7249857782699827,0.7191306193176658,0
+U096,R037,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.8797525247467717,0.6418971841010109,1
+U045,R079,4,69,Other,21.7,None,Keto,French,Salty,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.7336198969645817,0.5886263399374467,1
+U025,R021,5,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.8807542593968454,0.6037365643943671,1
+U094,R077,4,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25,0.7258079170783958,0.5235824488314704,1
+U006,R065,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.6706068501129011,0.8956224545015912,1
+U006,R030,5,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.749147937324815,0.8727069885258298,1
+U026,R047,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.8310303048988414,0.6479648618399015,1
+U098,R062,4,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.7912574423573611,0.8893001656991826,1
+U096,R062,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.6566467716589708,0.8770819182244896,1
+U038,R044,5,24,Male,19.6,None,Keto,American,Bitter,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.805942030496662,0.988921778461113,1
+U047,R047,1,69,Male,23.6,None,Vegetarian,French,Umami,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.7617634430952247,0.7828099479333359,0
+U056,R013,5,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.6967987307145409,0.5273926615985522,1
+U040,R031,5,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.7799605533064117,0.649470021225774,1
+U064,R038,3,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.8237013723336596,0.6277932623609974,0
+U100,R092,4,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,French Toast,American,Breakfast,15,220,10,28,8,1,1,2.8,100,0.6974363623091628,0.7366035162629254,1
+U063,R096,5,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60,0.8365627763743516,0.9275941686221459,1
+U029,R065,1,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.8136872829616374,0.8576349651116923,0
+U065,R084,4,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.8024838148563856,0.8395770834151326,1
+U008,R052,4,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.6581400784603009,0.9625309303508796,1
+U054,R012,1,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.8213143571975791,0.5599666100635903,0
+U083,R042,5,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.9179622661844968,0.6184143876731996,1
+U061,R013,3,66,Other,21.3,None,Gluten-Free,French,Sour,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.843241731880044,0.8623740099135556,0
+U015,R007,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.6016864739611215,0.9454839977000573,1
+U011,R023,4,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.8766951790398474,0.8967088642258465,1
+U066,R049,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.7846465523662323,0.9172999568930078,1
+U024,R098,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.9241681631637169,0.7456829916081429,1
+U026,R091,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.8484214606162803,0.6663006913299274,1
+U092,R098,4,35,Other,31.3,None,High-Protein,Thai,Sour,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.9535328418854961,0.9255648394936791,1
+U054,R073,3,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.6439004957989204,0.6338741186315942,0
+U087,R043,5,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40,0.8185237835630662,0.784111569599143,1
+U093,R042,4,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.6115592029412923,0.6007535300275806,1
+U064,R045,3,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.6448879965623258,0.999400206626345,0
+U056,R057,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.6747883031968857,0.8411201968460356,1
+U021,R056,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.7503394641700464,0.5356451116574881,1
+U078,R029,5,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.9754812989149657,0.9574083632461918,1
+U036,R050,3,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.9240140785165336,0.8553736909511573,0
+U025,R086,3,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.8305346669273751,0.7265253165573946,0
+U022,R019,3,42,Male,24.1,Underweight,Keto,Indian,Sour,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.8725461826724534,0.5508691301846,0
+U072,R030,4,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.753758612277616,0.5335710524787325,1
+U061,R020,5,66,Other,21.3,None,Gluten-Free,French,Sour,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.8167618839719402,0.7256538380400672,1
+U071,R044,4,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.8055647562857758,0.6866880261072933,1
+U099,R061,4,48,Other,20.5,Obesity,Vegan,Asian,Umami,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.6018901610476133,0.7622969593958603,1
+U070,R070,5,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.6738978170664323,0.6992074176302328,1
+U049,R056,1,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.9869201043683286,0.6741350308182553,0
+U098,R046,3,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9728888907202167,0.9442537651881179,0
+U010,R002,5,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.9597664122354189,0.7328936733621672,1
+U084,R024,4,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.8303951603934807,0.5635308914324961,1
+U013,R093,3,42,Other,32.8,Underweight,Keto,Spanish,Mild,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.8891337863798362,0.8188065446417001,0
+U074,R099,4,67,Other,32.7,Obesity,Keto,French,Savory,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.828454780290524,0.9372157748269534,1
+U076,R057,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.7306544765133405,0.7862105624614801,0
+U051,R031,3,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.7198152521796687,0.9109635596337935,0
+U067,R053,3,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.9338384674872486,0.902346382483596,0
+U076,R046,5,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9451781307407722,0.6450531452605557,1
+U004,R072,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.8068754110549317,0.5722305168455661,1
+U034,R025,5,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.88301684420086,0.7802465254470525,1
+U017,R010,5,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.7878592783586255,0.7246109942972125,1
+U058,R086,3,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.7308091467855296,0.655203051315607,0
+U010,R011,5,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.7487536930257896,0.5753189815012625,1
+U062,R087,2,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.9319274443681024,0.7215257709675081,0
+U060,R081,3,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.7306728722143683,0.5003663081949525,0
+U031,R007,3,56,Female,25.5,None,Vegetarian,French,Savory,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8806332935228691,0.5231997891383418,0
+U016,R030,4,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.7068218063138691,0.7002023480581445,1
+U093,R033,3,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.7632259585158367,0.8607426374176461,0
+U095,R029,4,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.7670109100764361,0.5726921155497016,1
+U081,R052,4,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.633387464961707,0.5467235573604029,1
+U040,R097,4,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.6483169543688989,0.9747459273985637,1
+U016,R057,5,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.7748597447292749,0.9735741066622745,1
+U035,R067,5,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80,0.9079929806389226,0.9269954277365414,1
+U024,R058,4,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.7301691718097836,0.5676656277213208,1
+U030,R075,4,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.6628312214704423,0.6232073922167627,1
+U034,R019,4,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.7464302645660253,0.946606799334951,1
+U023,R066,3,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.7754027582090848,0.7804364639948203,0
+U032,R030,4,48,Female,28.4,Obesity,Vegan,Asian,Sour,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.889019064238642,0.9079705104197977,1
+U035,R103,5,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.875010894963014,0.949626350352236,1
+U090,R099,4,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.619689953240716,0.8415168324802241,1
+U053,R097,3,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.935178205839682,0.9015086427254444,0
+U070,R046,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.6083691454554524,0.655055858481807,1
+U003,R057,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.9151944379868691,0.9845553245003209,1
+U064,R008,5,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.6114842811236735,0.8134331779408195,1
+U060,R019,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.8959165268704774,0.9035022009317197,1
+U090,R048,5,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.6094379312810406,0.9240063624030366,1
+U024,R058,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.6538130613205805,0.6642441430873021,1
+U018,R041,5,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.9372878315587662,0.860603580039959,1
+U021,R088,2,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7793354754301595,0.9258437409957335,0
+U100,R064,2,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.7378494949967007,0.9649858117673928,0
+U032,R037,4,48,Female,28.4,Obesity,Vegan,Asian,Sour,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.7594633203071299,0.9421293471530569,1
+U015,R077,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25,0.9214958919980173,0.5983804095528567,1
+U029,R033,4,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.7675459540913964,0.9752118378923424,1
+U066,R089,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.947256112888185,0.742970753716768,1
+U074,R097,5,67,Other,32.7,Obesity,Keto,French,Savory,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.7214781038568968,0.73904372885552,1
+U015,R010,3,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.9126553720658387,0.971938046417091,0
+U067,R014,5,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.7903972403330163,0.9872515608971492,1
+U074,R013,4,67,Other,32.7,Obesity,Keto,French,Savory,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.7798034187434011,0.7104207658378423,1
+U093,R081,5,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.8932348945348423,0.6990484170999831,1
+U013,R008,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.9862720989257363,0.835460553648623,1
+U036,R098,4,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.8391085434018378,0.894179892774956,1
+U043,R090,5,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.7621967032934974,0.5301016103137912,1
+U005,R038,4,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.6201125613774765,0.968943616267644,1
+U076,R014,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.7682370383348586,0.5242763720137869,0
+U015,R027,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.9458953181638591,0.7067734035376425,1
+U028,R084,5,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.7115415472020299,0.6633780929817603,1
+U027,R081,5,33,Female,25.9,None,Nut-Free,French,Tangy,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.9147560997847604,0.7214952783794828,1
+U027,R016,5,33,Female,25.9,None,Nut-Free,French,Tangy,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.9379192941618498,0.9572648420528488,1
+U086,R037,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.7229820271048059,0.6564938679384762,1
+U024,R076,4,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.6234304523210508,0.6082011267436549,1
+U037,R088,5,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.8788857267578329,0.9355071593441119,1
+U052,R066,3,22,Other,21.5,Digestive Issues,Gluten-Free,Asian,Salty,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.7747972913613506,0.6189502802998186,0
+U028,R036,3,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.9587641686083006,0.9384277503183076,0
+U021,R097,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.6125727454620439,0.8074545314953472,1
+U094,R064,5,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.6464536712982074,0.9788071946219745,1
+U043,R103,3,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.6344763522739866,0.9029934134691697,0
+U047,R062,1,69,Male,23.6,None,Vegetarian,French,Umami,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.933048792894575,0.9256451610646289,0
+U032,R080,5,48,Female,28.4,Obesity,Vegan,Asian,Sour,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.8320845556551275,0.5834942778663514,1
+U088,R086,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.8616709205727595,0.5885919216904701,1
+U074,R053,4,67,Other,32.7,Obesity,Keto,French,Savory,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.64183722079269,0.7788008842935596,1
+U071,R025,4,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.8047633401289886,0.7816936274655457,1
+U047,R041,3,69,Male,23.6,None,Vegetarian,French,Umami,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.9831017623369787,0.531823140830405,0
+U018,R015,3,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.9105007497547061,0.74365873196598,0
+U035,R001,3,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.7917139043185171,0.5232846466701961,0
+U007,R039,4,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.895211935993887,0.6873070029437132,1
+U017,R033,5,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.7056155446892034,0.6059525238546662,1
+U076,R072,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.9159351569102347,0.9244434960548777,0
+U080,R011,5,39,Other,19.5,Food Allergies,Paleo,French,Sour,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.6537830595365417,0.6599880261456439,1
+U093,R050,5,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.941421814075637,0.5596614313388251,1
+U098,R038,2,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.8636734398779095,0.5375599040414842,0
+U045,R054,4,69,Other,21.7,None,Keto,French,Salty,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.6150428150965134,0.9728312253205739,1
+U095,R023,4,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.9197801908591978,0.7343837014272159,1
+U032,R102,4,48,Female,28.4,Obesity,Vegan,Asian,Sour,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60,0.8153243951446054,0.714846036081847,1
+U018,R007,4,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8191096324664465,0.8581973521530649,1
+U023,R084,3,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.6089937776511665,0.5237630989605362,0
+U078,R073,5,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.7481716145304509,0.9041377272531865,1
+U065,R054,4,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.7710350280015259,0.8453582167989157,1
+U096,R080,4,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.8560138887560746,0.5015243347914751,1
+U074,R008,3,67,Other,32.7,Obesity,Keto,French,Savory,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.6493707706937765,0.557959961384738,0
+U045,R071,5,69,Other,21.7,None,Keto,French,Salty,Vegan Tacos,Mexican,Vegan,20,200,8,28,6,6,25,3.5,60,0.7089143684514336,0.5938184738862909,1
+U041,R024,4,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.8330157558634279,0.635162087156857,1
+U070,R082,2,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.8439567810337538,0.9453805426996575,0
+U053,R002,4,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.8571984113988613,0.63765342988729,1
+U030,R022,4,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.6181680073048864,0.7913088101919459,1
+U049,R052,4,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.7822093839881795,0.6430758042428355,1
+U040,R034,2,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.9429652234133943,0.924752113780374,0
+U076,R019,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.8808286175197896,0.763857250382544,0
+U059,R074,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15,0.9142381816248253,0.9228788579935034,1
+U067,R076,4,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.6763058927020948,0.7205088007971792,1
+U054,R101,5,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.6320276069964476,0.72455203159499,1
+U042,R073,4,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.6844840560559149,0.9932960524751481,1
+U012,R059,5,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.9784506861620558,0.8264488642610839,1
+U059,R046,4,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9425348830697718,0.7013868736192134,1
+U002,R023,2,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.9483460864724328,0.5833066544877125,0
+U072,R103,5,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.732125852453805,0.5864920750122122,1
+U019,R078,5,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.8088532530694456,0.6566130813321165,1
+U032,R078,2,48,Female,28.4,Obesity,Vegan,Asian,Sour,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.7185729443821387,0.9939257636404831,0
+U081,R062,2,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9255226563077885,0.7460154178599943,0
+U014,R041,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.9504066277839426,0.5468070119647916,1
+U060,R001,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.6377967055400674,0.8203421879611954,1
+U044,R029,4,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.8660026832202361,0.7844223446918637,1
+U020,R041,5,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.9401910050441565,0.8763961669731304,1
+U093,R044,3,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.8948597502374587,0.9203292838812023,0
+U067,R033,3,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.8793799059434217,0.7298350280599626,0
+U073,R063,4,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.6715960144689326,0.9143987965725364,1
+U014,R044,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9106529026110002,0.8222374331606475,1
+U047,R078,3,69,Male,23.6,None,Vegetarian,French,Umami,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.6098401556845005,0.6003211932887602,0
+U062,R100,1,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.8882576386187301,0.7498169997048765,0
+U017,R020,4,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.915312130279936,0.9489378738183658,1
+U100,R072,3,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.776001788067959,0.6771477533367949,0
+U086,R047,4,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.8855092848050725,0.6602542549361805,1
+U007,R031,4,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.908354840986948,0.5799229243321977,1
+U086,R031,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.7968119457542965,0.6684952255969363,1
+U001,R024,4,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.8461554468494668,0.8031803100549606,1
+U001,R061,2,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.8460974440993013,0.667774495829645,0
+U055,R039,5,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.8547126089873895,0.9024177324626605,1
+U004,R027,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8035098153757058,0.6120180477624653,1
+U080,R054,5,39,Other,19.5,Food Allergies,Paleo,French,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.8381869772813328,0.5550695035418804,1
+U054,R054,4,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.7783157350038535,0.682480576977422,1
+U035,R029,3,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.7333558438505206,0.6690204027169095,0
+U052,R058,3,22,Other,21.5,Digestive Issues,Gluten-Free,Asian,Salty,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.645811673163835,0.6270932532304152,0
+U032,R072,5,48,Female,28.4,Obesity,Vegan,Asian,Sour,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.754273627748276,0.6554447203916262,1
+U078,R102,4,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60,0.7415787105270568,0.9887980638567164,1
+U045,R007,5,69,Other,21.7,None,Keto,French,Salty,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.6698994919084461,0.7315396855047978,1
+U096,R027,2,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8409891289915065,0.969646859427304,0
+U044,R019,5,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.7460404711163612,0.725322777647786,1
+U036,R037,4,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.6929596565540106,0.9535260255589719,1
+U071,R078,4,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.8906007042455129,0.6206434214094039,1
+U082,R083,4,69,Other,23.3,None,Paleo,Mediterranean,Salty,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.6329180708028173,0.8199557550923593,1
+U054,R058,4,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.797706068833769,0.6533052013844738,1
+U060,R042,5,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.6201087399394484,0.8938648190243224,1
+U079,R080,5,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.9005291387891774,0.9566557645515912,1
+U024,R048,4,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.8854720787893533,0.9010333549635321,1
+U021,R011,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.7995113583375545,0.6260116964929353,1
+U083,R103,5,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.7494558782690307,0.7643620468571946,1
+U100,R081,5,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.7699437722675795,0.7116061135517241,1
+U070,R041,1,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.6935011144943195,0.9367039475598368,0
+U013,R083,2,42,Other,32.8,Underweight,Keto,Spanish,Mild,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.6438865275325603,0.8370987387910087,0
+U022,R035,4,42,Male,24.1,Underweight,Keto,Indian,Sour,Chicken Biryani,Indian,Non-Vegetarian,55,450,30,42,18,2,12,3.8,35,0.7204032544676753,0.9427742222157935,1
+U046,R091,4,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.7884197530662724,0.9031545664112333,1
+U064,R088,4,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.6297093809954005,0.5210824182622674,1
+U037,R037,1,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.8932631926170369,0.5643363078373194,0
+U005,R066,5,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.9527870241433655,0.6646991346930595,1
+U092,R047,4,35,Other,31.3,None,High-Protein,Thai,Sour,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.7333783965959905,0.9715091278366401,1
+U027,R040,3,33,Female,25.9,None,Nut-Free,French,Tangy,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.9357977500317594,0.911944088762237,0
+U086,R066,1,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.9035530510836227,0.7515087471073765,0
+U004,R022,5,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.625183341733644,0.7387596702495274,1
+U027,R029,3,33,Female,25.9,None,Nut-Free,French,Tangy,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.9533762575614336,0.9779435971452655,0
+U084,R020,5,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.771703358348442,0.7099963608479669,1
+U044,R075,5,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.7088732523589076,0.98728834076411,1
+U044,R027,3,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.9601687160629755,0.6361800824482815,0
+U010,R003,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.6604511697059569,0.9064386475178172,1
+U076,R099,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.7960067955618617,0.9035708105129348,0
+U091,R038,3,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.9878894159267677,0.5232165276431465,0
+U042,R007,4,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8236859255912813,0.5949539388120957,1
+U022,R073,4,42,Male,24.1,Underweight,Keto,Indian,Sour,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.6934416575401104,0.8511646225912836,1
+U070,R052,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.964236062106653,0.813809960850547,1
+U074,R063,5,67,Other,32.7,Obesity,Keto,French,Savory,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.9168600908711582,0.6622916691484079,1
+U100,R012,2,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7839677872499524,0.5558525884888048,0
+U043,R016,5,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.6880034611074078,0.9117367029332333,1
+U040,R069,5,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.9808575907481609,0.8906198710962,1
+U042,R043,4,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40,0.8191487969839505,0.9628487181762697,1
+U074,R095,1,67,Other,32.7,Obesity,Keto,French,Savory,Smoothie Bowl,American,Healthy Breakfast,10,180,6,32,4,6,70,2.5,80,0.6792871448283656,0.9035874537701949,0
+U003,R034,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.9222381140007513,0.9004129441568172,1
+U073,R002,4,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.9342988885514454,0.5244758269546941,1
+U051,R093,4,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.6701629569103069,0.9431873447095903,1
+U097,R091,1,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.9600448419331077,0.791032116064474,0
+U022,R068,3,42,Male,24.1,Underweight,Keto,Indian,Sour,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.7563852750869229,0.8602208507965761,0
+U088,R077,4,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25,0.9343552586875162,0.5529324300471286,1
+U061,R003,5,66,Other,21.3,None,Gluten-Free,French,Sour,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.6868013360481484,0.6336332818598468,1
+U058,R094,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Omelette,American,Breakfast,15,200,16,3,14,1,8,2.2,80,0.7792122317202971,0.705416846988945,1
+U025,R013,1,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.7841599624304895,0.7996738141122537,0
+U014,R076,3,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.9637573152851329,0.7192720500983845,0
+U088,R066,4,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.9543105742215068,0.5730872351462585,1
+U080,R012,4,39,Other,19.5,Food Allergies,Paleo,French,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.9724457942779612,0.5379603255467171,1
+U004,R049,1,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6272900863710464,0.8328607012779247,0
+U035,R021,4,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.6330888960620389,0.763110879683784,1
+U068,R063,4,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.6964212569060554,0.9284302325171334,1
+U064,R055,5,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250,0.6856535840752435,0.6426653118588133,1
+U017,R036,5,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.9416324194305737,0.7348487018493028,1
+U010,R036,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.9013164320572196,0.5334127391587269,1
+U071,R012,5,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.9888389172626515,0.8036232733810114,1
+U097,R076,5,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.7166800628533825,0.5681237737374398,1
+U066,R082,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.991738128048934,0.5756702629012371,1
+U007,R033,5,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.9504997337212655,0.9559228425825215,1
+U019,R082,5,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.7510419146428914,0.7411498242019379,1
+U011,R050,5,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.6895914356712027,0.57906074419799,1
+U081,R002,2,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.9772463985355827,0.7937066654097062,0
+U072,R101,4,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.9505058322260983,0.5666696084035163,1
+U041,R002,3,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.7173770423351565,0.6483342344026102,0
+U085,R065,5,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.7802473981677629,0.6530039115133037,1
+U003,R095,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Smoothie Bowl,American,Healthy Breakfast,10,180,6,32,4,6,70,2.5,80,0.6049710507123854,0.681856871140047,1
+U044,R061,5,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.7940383065109035,0.8895824260482255,1
+U007,R054,1,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.7808182505529115,0.7669915935155125,0
+U019,R010,3,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.8478079936277262,0.9812609147696945,0
+U058,R059,5,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.8899297800603786,0.7231187015202348,1
+U072,R040,4,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.7875336478062943,0.5702728626901101,1
+U003,R064,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.6590738837181573,0.5239301382691925,1
+U003,R029,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.8950797796605447,0.6836548369489528,1
+U011,R025,5,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.9876488085727106,0.8141909168751282,1
+U100,R042,3,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.8230448814268961,0.596279076340152,0
+U007,R008,5,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.8199475528382414,0.8816423853002693,1
+U034,R032,5,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.8251968448281181,0.7535940845756787,1
+U017,R064,5,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.7656208403878179,0.5418408455152472,1
+U002,R064,5,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.7494891380147806,0.671489689466508,1
+U055,R064,2,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.76039141850788,0.9128949646352639,0
+U001,R020,3,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.8989871359483816,0.9738072591984759,0
+U081,R053,5,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.8513147814566697,0.6942372982638578,1
+U020,R062,3,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.7961564945280816,0.7352504852845558,0
+U098,R031,5,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.7427404391664392,0.9989805508176276,1
+U050,R018,1,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.7146038974270996,0.5578429376510573,0
+U100,R046,1,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9160675369344748,0.9723626169304155,0
+U089,R048,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.6123066547958746,0.9848041850993854,1
+U023,R068,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.7336512296688975,0.6872440714357406,1
+U020,R082,4,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.6172107773853771,0.9512227159731416,1
+U067,R044,3,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.6399082373956004,0.9273339263509661,0
+U086,R005,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.7552720650233116,0.9751477804170119,1
+U080,R049,4,39,Other,19.5,Food Allergies,Paleo,French,Sour,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6522173505875895,0.9593069751452689,1
+U089,R022,4,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.6405438574445587,0.6876322812078812,1
+U044,R061,2,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.8025628353597783,0.7437780657642661,0
+U015,R053,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.6981262925435566,0.6806715577667474,1
+U009,R070,1,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.8622368053179177,0.9663098396256842,0
+U057,R021,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.9478948396970548,0.9959438360646033,1
+U069,R041,5,54,Male,27.3,Underweight,High-Protein,American,Tangy,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.6303460694509772,0.8402356764429063,1
+U064,R013,2,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.9871024529486975,0.7765555374981568,0
+U096,R009,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.8878209606670305,0.5826140217907189,1
+U084,R015,2,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.9650428653346533,0.9404777126946076,0
+U064,R051,4,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.8123491240220282,0.6264901354690484,1
+U027,R085,4,33,Female,25.9,None,Nut-Free,French,Tangy,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.73146690168407,0.6910684779234411,1
+U058,R057,5,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.690864036267414,0.7649319328238046,1
+U031,R085,5,56,Female,25.5,None,Vegetarian,French,Savory,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.9948499364165925,0.6818405908142855,1
+U013,R084,4,42,Other,32.8,Underweight,Keto,Spanish,Mild,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.7331143884103739,0.7120814865045968,1
+U066,R003,3,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.7511094730708646,0.6038745146135698,0
+U064,R040,4,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.8161366287081524,0.828597945918292,1
+U061,R044,1,66,Other,21.3,None,Gluten-Free,French,Sour,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.6547468726000265,0.7056144775014692,0
+U057,R017,3,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.6646849757292738,0.8360442998314689,0
+U065,R066,4,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.8674778107717859,0.6075804911889762,1
+U013,R032,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.768743214529793,0.7016710105322401,1
+U061,R091,4,66,Other,21.3,None,Gluten-Free,French,Sour,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.6943100030935069,0.7009782674802434,1
+U058,R073,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.7691305872355241,0.7189837799305336,1
+U054,R001,3,58,Female,30.3,Obesity,Vegetarian,Indian,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.7057266829634223,0.7980837941476959,0
+U017,R006,5,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.621140149965733,0.7938249591377381,1
+U002,R072,3,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.6161893362856986,0.616610623284056,0
+U037,R076,5,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.8253732776320768,0.8773322981795797,1
+U074,R027,2,67,Other,32.7,Obesity,Keto,French,Savory,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.952768322771433,0.7570843783197432,0
+U045,R055,5,69,Other,21.7,None,Keto,French,Salty,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250,0.7487651741437384,0.6602281144347941,1
+U070,R084,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.6964410946662939,0.8016318354938035,1
+U060,R031,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.6770643406398539,0.9419762446170321,1
+U002,R099,5,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.9566631902692343,0.6070076543444634,1
+U070,R047,2,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.6167206394853512,0.5323061604073593,0
+U085,R049,4,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.7153530482799155,0.8257431315102761,1
+U006,R090,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.8333007479483161,0.6990502315846561,1
+U028,R040,4,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.6758145182239763,0.6244247541354977,1
+U066,R014,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.762275041637123,0.814628676541229,1
+U028,R016,2,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.9419759430682546,0.6127263145146205,0
+U004,R093,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.9295718507196126,0.9747765459381843,1
+U096,R093,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.7833872907535017,0.7601940903116067,1
+U066,R098,3,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.8438285504793177,0.6833960187117907,0
+U003,R020,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.8622436076966955,0.5712066524814818,1
+U094,R025,4,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.9913349169960295,0.5321448005848856,1
+U096,R028,4,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Vegetable Enchiladas,Mexican,Vegetarian,30,250,10,32,8,6,30,2.8,150,0.6715371911628624,0.9120005811305172,1
+U091,R024,4,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.7502200370982832,0.9871104474710235,1
+U040,R058,3,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.8062035937005265,0.568692699283867,0
+U031,R052,5,56,Female,25.5,None,Vegetarian,French,Savory,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.7230154441117493,0.6609548607160799,1
+U007,R047,2,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.6944825873416044,0.846859476900393,0
+U008,R101,5,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.7674211580015178,0.5202955788583519,1
+U060,R041,3,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.6430455795399225,0.887318958907579,0
+U077,R063,5,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.7627227751766226,0.8057962813357347,1
+U068,R088,4,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7552235506124771,0.5173558763670181,1
+U037,R044,5,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.704977388369978,0.5618552642497214,1
+U049,R101,1,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.8351701738127177,0.7192521506716538,0
+U087,R081,5,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.7963290780640094,0.70953746483991,1
+U025,R030,3,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.770109788538047,0.7222522472782915,0
+U057,R016,3,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.6608896665527577,0.8509773496084972,0
+U030,R070,5,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.9094679878189535,0.5063153398927881,1
+U031,R031,5,56,Female,25.5,None,Vegetarian,French,Savory,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.7833733990615547,0.8520298614275912,1
+U014,R093,5,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.8380678182615642,0.5170747314157117,1
+U004,R084,5,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.9894719107317805,0.66964718071328,1
+U072,R024,2,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.6778036580922646,0.9750146317908729,0
+U010,R065,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.7091877413905586,0.6640319231235823,1
+U003,R077,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25,0.8719085208585438,0.972636392316941,1
+U021,R083,3,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.9872127365829168,0.5088451730251886,0
+U038,R062,4,24,Male,19.6,None,Keto,American,Bitter,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.8315304296907917,0.6505981992735312,1
+U006,R096,5,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60,0.7894237044737237,0.7954049405515415,1
+U048,R010,4,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.9651114027474218,0.8877857324756576,1
+U008,R015,2,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.6092135458146521,0.7998452639176186,0
+U019,R013,4,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.8723475423019609,0.6102845824516901,1
+U076,R088,4,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.9023243509825207,0.582073359889618,1
+U002,R075,3,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.6917195972844599,0.7367031541293426,0
+U075,R076,2,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.8291783209986411,0.709054747991842,0
+U061,R019,2,66,Other,21.3,None,Gluten-Free,French,Sour,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.790827422818506,0.8579065066348293,0
+U001,R067,4,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80,0.9337027907938812,0.6794563655498751,1
+U059,R001,4,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.6775161670265454,0.6091814778979867,1
+U042,R080,5,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.9505720818063924,0.7871079152896712,1
+U003,R022,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.6733047315942726,0.8210082924390563,1
+U032,R006,5,48,Female,28.4,Obesity,Vegan,Asian,Sour,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.9474640553907243,0.9773651181986192,1
+U019,R062,3,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9750637731578384,0.8577045886605799,0
+U030,R062,4,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.8607489905837897,0.8315418297361461,1
+U036,R101,5,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.9133285035220072,0.6010415638201988,1
+U049,R027,4,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.6396561630253845,0.665353504900587,1
+U038,R101,2,24,Male,19.6,None,Keto,American,Bitter,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.7052858187628683,0.8126154586465308,0
+U069,R082,2,54,Male,27.3,Underweight,High-Protein,American,Tangy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.6780116575696391,0.5758505703394761,0
+U006,R047,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.9388143560662998,0.7218830288089745,1
+U090,R007,3,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8591908145354887,0.9904267523332393,0
+U090,R057,5,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.6056035312760195,0.8919558961729637,1
+U015,R097,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.9648435865690072,0.5269366753846976,1
+U008,R042,5,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.8293177223259132,0.67195003521056,1
+U027,R001,5,33,Female,25.9,None,Nut-Free,French,Tangy,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.7555580978698528,0.7420614000374888,1
+U009,R088,4,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7080002763548443,0.7081762451937338,1
+U021,R002,3,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.6272227073447246,0.5210728017328524,0
+U084,R093,4,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.6867581081417321,0.6145011360477413,1
+U089,R092,4,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,French Toast,American,Breakfast,15,220,10,28,8,1,1,2.8,100,0.8737012916675266,0.6936746147146642,1
+U056,R036,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.9288151404018128,0.7377400333121213,1
+U092,R039,3,35,Other,31.3,None,High-Protein,Thai,Sour,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.7418026538206088,0.7632370774424795,0
+U056,R080,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.8996742457272011,0.9636432832002562,1
+U026,R078,3,58,Male,25.7,Diabetes,Keto,Asian,Savory,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.7797381521863613,0.530915749936098,0
+U078,R057,4,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.9713744474021343,0.544447711595984,1
+U006,R016,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.6412682202746819,0.7349543271138022,1
+U023,R087,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.8643394463580887,0.8688052672762451,1
+U084,R094,3,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Omelette,American,Breakfast,15,200,16,3,14,1,8,2.2,80,0.6567914950930197,0.795037512624309,0
+U062,R078,4,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.7181280072663294,0.8715747707172157,1
+U036,R027,5,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.6793731438982161,0.8798334718099645,1
+U007,R063,5,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.7793342473103149,0.8965304918806759,1
+U074,R036,4,67,Other,32.7,Obesity,Keto,French,Savory,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.6798353342522774,0.6432695845900454,1
+U078,R022,3,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.8040739032070288,0.679798436239688,0
+U080,R014,3,39,Other,19.5,Food Allergies,Paleo,French,Sour,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.8238982224748033,0.5436444390413939,0
+U062,R067,5,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80,0.6367616320561669,0.6490584252348685,1
+U060,R005,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.8568225335696762,0.9377580302412799,1
+U095,R038,5,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.901389475187572,0.589941286462776,1
+U031,R085,2,56,Female,25.5,None,Vegetarian,French,Savory,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.8873123131577414,0.9262035769285437,0
+U057,R045,2,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.6359720380472517,0.6176129284926926,0
+U035,R031,4,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.890271087983508,0.5378874208059601,1
+U013,R099,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.9962261955816933,0.6136264941825904,1
+U028,R062,4,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.638553624884007,0.8744249519529681,1
+U029,R029,4,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.6289539120887676,0.5809160564222633,1
+U007,R034,2,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.9774189032439664,0.9617223258275991,0
+U061,R023,4,66,Other,21.3,None,Gluten-Free,French,Sour,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.6316833020176043,0.9423085478570754,1
+U019,R015,3,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.8292556620943399,0.8936200366889073,0
+U029,R038,4,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.8189434242370591,0.7622998877100629,1
+U027,R070,2,33,Female,25.9,None,Nut-Free,French,Tangy,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.7944448497114557,0.9508739233718646,0
+U038,R051,2,24,Male,19.6,None,Keto,American,Bitter,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.9396030116914966,0.590341436969905,0
+U083,R054,5,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.7491348014164865,0.5899578385346744,1
+U088,R024,1,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.6377584641350517,0.7530391016867708,0
+U044,R045,5,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.6103638568169263,0.633351004390355,1
+U032,R058,5,48,Female,28.4,Obesity,Vegan,Asian,Sour,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.6883491798753019,0.7524757408025227,1
+U041,R072,4,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.774985766922226,0.8866047952852132,1
+U011,R042,5,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.6057469625159874,0.9553998649035059,1
+U047,R045,5,69,Male,23.6,None,Vegetarian,French,Umami,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.8566664318277373,0.728003419345238,1
+U036,R020,4,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.6600594317346246,0.511257807719729,1
+U010,R062,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9239870466619551,0.8447115156445969,1
+U041,R041,3,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.6748072155767711,0.840241186713854,0
+U044,R018,4,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.8220727143682629,0.810442862106943,1
+U028,R018,5,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.782667658467291,0.5783602401729978,1
+U058,R044,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.6579165481279646,0.6358135180447553,1
+U036,R072,5,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.7930916052392318,0.8028435082199603,1
+U068,R042,5,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.977746841118549,0.7512846164691082,1
+U041,R038,2,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.9900745219103679,0.5533121832817294,0
+U082,R070,4,69,Other,23.3,None,Paleo,Mediterranean,Salty,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.9624095218679868,0.607553479282597,1
+U016,R049,4,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.867782033751739,0.7936096872327759,1
+U011,R059,1,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.8634722658908658,0.6138993987730308,0
+U004,R017,5,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.6104979848866586,0.8637579727636358,1
+U028,R009,4,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.7596535283660906,0.7889372512165045,1
+U050,R068,2,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.8139411530687501,0.5442777988629489,0
+U034,R086,1,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.7527909205091574,0.6088363744754124,0
+U055,R007,4,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.9730257061416289,0.8849516890362048,1
+U034,R086,4,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.6323133713273154,0.5826931261358792,1
+U080,R029,5,39,Other,19.5,Food Allergies,Paleo,French,Sour,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.985101243131911,0.9108064836480988,1
+U041,R023,3,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.6444409750202672,0.9877215940567686,0
+U059,R072,4,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.6379451849350231,0.5133019043935533,1
+U033,R088,4,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7872651645270698,0.9033697322316698,1
+U078,R047,5,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.626455850383201,0.7949158430630735,1
+U010,R048,1,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.6791395722436334,0.8977424478040001,0
+U078,R044,2,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9161014680986107,0.9027349199073098,0
+U053,R033,2,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.7134057551695863,0.8234836748146964,0
+U052,R065,4,22,Other,21.5,Digestive Issues,Gluten-Free,Asian,Salty,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.9703725455208035,0.797937947515834,1
+U003,R082,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.8734645690726259,0.6887014362079298,1
+U079,R033,5,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.6983218861022732,0.7607769621591627,1
+U015,R038,2,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.7199187411240723,0.9916350918221033,0
+U030,R006,2,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.9785211847809863,0.812107908709579,0
+U068,R028,4,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Vegetable Enchiladas,Mexican,Vegetarian,30,250,10,32,8,6,30,2.8,150,0.9728145575789306,0.9085748510891332,1
+U070,R017,3,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.6524882785391035,0.9967460704205396,0
+U056,R047,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.6471821836690302,0.6597351848315056,1
+U023,R027,4,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8287734685944123,0.9523846559797251,1
+U030,R102,5,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60,0.73175136214861,0.8092139067279817,1
+U095,R085,5,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.641082324926931,0.8566011142548943,1
+U068,R094,5,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Omelette,American,Breakfast,15,200,16,3,14,1,8,2.2,80,0.8884259182622125,0.5062430186028254,1
+U024,R103,3,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.7831044302414815,0.8228954404057118,0
+U012,R001,4,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.8187474063264305,0.8836226126635013,1
+U006,R045,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.6710628566789393,0.8018883048815891,1
+U070,R037,5,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.8359531930632784,0.8796514002774241,1
+U093,R003,5,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.634310612758761,0.5773606967200016,1
+U053,R046,4,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9500878532779535,0.50357931844849,1
+U013,R041,4,42,Other,32.8,Underweight,Keto,Spanish,Mild,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.94989008494083,0.8930688204421513,1
+U094,R100,4,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.7348026390304335,0.6086928466203713,1
+U022,R002,5,42,Male,24.1,Underweight,Keto,Indian,Sour,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.6667836436567923,0.7511005951520503,1
+U075,R099,4,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.71953164737082,0.7884746470262547,1
+U082,R039,3,69,Other,23.3,None,Paleo,Mediterranean,Salty,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.6876278354284475,0.984109961717067,0
+U051,R027,3,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8131975740962802,0.911925857314046,0
+U062,R061,4,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.7990939434143918,0.8467138074341822,1
+U099,R096,5,48,Other,20.5,Obesity,Vegan,Asian,Umami,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60,0.6811768216065552,0.7399307419405976,1
+U062,R079,2,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.9674182309775264,0.7935025321493867,0
+U028,R049,5,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6311494991608863,0.958229240583581,1
+U046,R067,4,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80,0.8790792619432111,0.8792596082223849,1
+U076,R007,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.9514525135424551,0.5895854009516952,0
+U019,R030,2,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.9647364569704824,0.9984651190289751,0
+U088,R037,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.7450830896117365,0.836592894689962,1
+U089,R047,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.8008302913675265,0.9311043485522628,1
+U082,R019,1,69,Other,23.3,None,Paleo,Mediterranean,Salty,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.9144223210593362,0.9347849544480726,0
+U062,R088,4,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.8887054015717615,0.8878539445177602,1
+U023,R090,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.8565621107188823,0.5216241050039336,1
+U076,R031,3,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.8078276462697601,0.7037433163942227,0
+U034,R082,3,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.9513068207114833,0.9661557770792015,0
+U022,R048,5,42,Male,24.1,Underweight,Keto,Indian,Sour,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.8902239701468728,0.8522964057951994,1
+U085,R070,5,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.8474122198484743,0.7441558532908715,1
+U079,R031,4,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.6626961065688891,0.6182972739018323,1
+U058,R084,5,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.9291734275724176,0.7433867493276733,1
+U033,R036,3,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80,0.878718731185324,0.691630821655087,0
+U043,R089,4,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.863687765811056,0.6969791980847008,1
+U027,R006,4,33,Female,25.9,None,Nut-Free,French,Tangy,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.7177639449851421,0.8213666581648718,1
+U087,R085,2,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.9022714927414958,0.6375337093409914,0
+U073,R063,3,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.935659727224641,0.7522756718140489,0
+U044,R013,3,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.9288425367649314,0.7246151425547773,0
+U016,R097,2,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.8939527542034126,0.6351749494429055,0
+U003,R038,1,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.909498140472058,0.6938101398939874,0
+U065,R102,3,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60,0.6138964035298957,0.7604312206899442,0
+U014,R070,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80,0.6647950630072043,0.9536492641602972,1
+U016,R025,3,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.6195092498690246,0.728304643737674,0
+U078,R039,5,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.7663819228786058,0.8977029256150912,1
+U063,R056,4,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.874626002891123,0.5969436219184672,1
+U060,R085,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.7986008832469609,0.840549698127784,1
+U044,R042,3,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.8883915464548021,0.9243367612062809,0
+U030,R038,3,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.7413411098051695,0.9319707527784329,0
+U060,R020,5,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.9717257561433882,0.614861538578747,1
+U002,R044,3,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9896697330032684,0.8196186007012529,0
+U088,R021,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.7663122332284475,0.7587403982496947,1
+U038,R075,5,24,Male,19.6,None,Keto,American,Bitter,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.7287193015879541,0.5971086932280278,1
+U016,R007,5,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.802632067648605,0.9183758598718375,1
+U075,R053,4,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.7029636666066342,0.949228061751297,1
+U040,R023,4,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.721853245426093,0.7967275754578966,1
+U027,R004,5,33,Female,25.9,None,Nut-Free,French,Tangy,Aloo Gobi,Indian,Vegetarian,25,180,6,28,5,6,60,2.1,45,0.7179840612478832,0.8969870317360287,1
+U004,R001,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.9539387258506835,0.8718760731324249,1
+U094,R022,4,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.7823809503668633,0.7431878361454871,1
+U012,R015,2,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.6539063074955657,0.7557980168727949,0
+U097,R098,4,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.6382192175745728,0.6804543252665352,1
+U060,R027,4,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8607340156181872,0.8140802460838754,1
+U092,R056,4,35,Other,31.3,None,High-Protein,Thai,Sour,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.6212369337029552,0.8009759989818208,1
+U010,R076,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.9244410047792885,0.5329623168885786,1
+U046,R020,5,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.7745849137479836,0.729795524277028,1
+U085,R007,3,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8585351497286511,0.5762867813984529,0
+U028,R050,3,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.8257922250868526,0.9363489051205202,0
+U100,R018,2,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.7333935155598638,0.7293086176517796,0
+U026,R093,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.762405849538935,0.7480293558677682,1
+U012,R087,5,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.943280454048802,0.9866887782781937,1
+U013,R069,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.6378682107008469,0.8072670453297139,1
+U048,R042,5,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40,0.7839140059678642,0.6187681823393385,1
+U076,R079,2,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.873140924179246,0.9810525581594344,0
+U012,R033,4,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.9208931590903512,0.6888968959685859,1
+U036,R022,3,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.6364078269830976,0.7769835843035726,0
+U022,R089,4,42,Male,24.1,Underweight,Keto,Indian,Sour,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.9008670341735904,0.6341345949747681,1
+U019,R079,5,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.9561090035370309,0.5386457838993882,1
+U016,R037,5,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.8186099510604365,0.7018920960206625,1
+U082,R096,3,69,Other,23.3,None,Paleo,Mediterranean,Salty,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60,0.7382150991118337,0.6460126833300237,0
+U031,R057,4,56,Female,25.5,None,Vegetarian,French,Savory,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.6320379987216606,0.5242728250730025,1
+U077,R085,5,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.6894465948862504,0.5391246556894429,1
+U003,R088,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7441356754895004,0.9721051845540747,1
+U027,R082,4,33,Female,25.9,None,Nut-Free,French,Tangy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.8339578032300867,0.851481449999965,1
+U076,R025,5,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.8850185475206713,0.8760804994291898,1
+U098,R044,5,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.9003890950714047,0.7302262081215877,1
+U081,R009,5,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.804442867189735,0.8913224328259491,1
+U075,R013,5,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.7925599792609291,0.7868244955134875,1
+U011,R055,1,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250,0.6825229901089114,0.9265507179772359,0
+U057,R013,5,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.9849817352444977,0.9749797248500884,1
+U010,R097,2,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.6681498359868655,0.5974083140628017,0
+U010,R010,2,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.64345823651159,0.8938773427752738,0
+U084,R032,5,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.9301046532331103,0.9986965635059359,1
+U022,R076,5,42,Male,24.1,Underweight,Keto,Indian,Sour,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.903309358225816,0.5466015524682929,1
+U034,R059,5,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.9355292727397644,0.5908661424452138,1
+U084,R092,5,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,French Toast,American,Breakfast,15,220,10,28,8,1,1,2.8,100,0.7410110090756298,0.9108976626528495,1
+U002,R061,2,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.8065566039184077,0.7752131848396484,0
+U085,R100,4,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.8041422583575949,0.9862176233383328,1
+U083,R053,4,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.6658446274117091,0.8280846142566163,1
+U064,R024,5,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.9379410631261825,0.8688260431842306,1
+U006,R064,3,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.946853662444449,0.646491075278562,0
+U023,R011,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.8794635633443741,0.9699329835325209,1
+U047,R049,4,69,Male,23.6,None,Vegetarian,French,Umami,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.7070270368872131,0.8890964258514784,1
+U009,R065,1,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.6736586810911681,0.6924866887682191,0
+U025,R046,4,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.8094591767580097,0.7174338883240434,1
+U015,R082,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.6605127058044203,0.7615066366807819,1
+U031,R074,5,56,Female,25.5,None,Vegetarian,French,Savory,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15,0.7129962496645005,0.6138052004651898,1
+U044,R033,3,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.9113370457933112,0.993381989161924,0
+U075,R075,4,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.8631682649873722,0.7263074410270982,1
+U009,R010,2,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.6159338799162197,0.8901780403322377,0
+U035,R047,5,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.7134667036934655,0.8283800423865335,1
+U098,R064,4,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.9225617339647307,0.5698733468371535,1
+U056,R103,5,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.7431498547113244,0.5313136616980163,1
+U032,R003,3,48,Female,28.4,Obesity,Vegan,Asian,Sour,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.7441623422167634,0.8165758654440963,0
+U050,R093,5,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.8856622754188158,0.8471458017947291,1
+U097,R084,5,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.9570759898876434,0.603632350605773,1
+U087,R075,4,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.9933438295425544,0.6962384652475426,1
+U018,R078,2,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.8432271503225184,0.7616109037043001,0
+U001,R091,5,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.7194328272678547,0.7968290352018286,1
+U088,R075,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.7123232336820695,0.9645491147738524,1
+U026,R058,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.6288816848452182,0.8804899382470115,1
+U059,R021,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.823500388743035,0.6730751494668327,1
+U083,R058,3,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.9347257106441572,0.8140292182703699,0
+U096,R054,4,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.9600338501686458,0.9785066586414841,1
+U068,R081,3,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.7957621924724732,0.8391736064363982,0
+U070,R065,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.701292941734505,0.8086417995151249,1
+U030,R061,5,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.7986046646557132,0.9395469160979362,1
+U062,R054,2,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.667586516796833,0.7561819492528019,0
+U094,R030,2,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.6503880666476615,0.7122634531300269,0
+U092,R071,5,35,Other,31.3,None,High-Protein,Thai,Sour,Vegan Tacos,Mexican,Vegan,20,200,8,28,6,6,25,3.5,60,0.7990712426181287,0.513275395562951,1
+U084,R059,5,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.7226925435742426,0.9349687295792766,1
+U037,R082,5,24,Other,27.5,Underweight,Paleo,Indian,Spicy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.9965273542839804,0.9066042959128133,1
+U039,R083,4,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.9506366637231956,0.845975562624521,1
+U069,R063,3,54,Male,27.3,Underweight,High-Protein,American,Tangy,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.7356676864266735,0.949953604387471,0
+U086,R058,4,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.7550938216128724,0.7364160572249518,1
+U061,R034,5,66,Other,21.3,None,Gluten-Free,French,Sour,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.9918542519001887,0.7497814461192345,1
+U046,R098,2,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.6879162156235645,0.7338544282146887,0
+U047,R075,5,69,Male,23.6,None,Vegetarian,French,Umami,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.9433446587433435,0.5988823358849689,1
+U068,R083,2,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.8382265562326149,0.7949656258274107,0
+U026,R065,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.8379867940028527,0.71539305702205,1
+U015,R047,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.9315832581085893,0.7546418987196396,1
+U053,R089,5,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.6152630524883468,0.6259475236040226,1
+U085,R090,1,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.6530095915658453,0.7074860605561895,0
+U038,R003,4,24,Male,19.6,None,Keto,American,Bitter,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.885292401204665,0.6860093679869961,1
+U097,R003,5,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.9222846553086705,0.7236782107023187,1
+U036,R089,4,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.9291454845731087,0.7251085276231789,1
+U016,R079,1,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.85801561031946,0.848265969665072,0
+U092,R061,2,35,Other,31.3,None,High-Protein,Thai,Sour,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.8859282747000099,0.8751450708766721,0
+U051,R066,5,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.8773151044981633,0.7056876136679098,1
+U006,R027,5,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8697188372501781,0.6075925170904767,1
+U012,R083,5,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.7903244002451246,0.7125891804437361,1
+U027,R049,3,33,Female,25.9,None,Nut-Free,French,Tangy,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6341982323082921,0.9189036211930502,0
+U084,R051,3,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.6495831921090737,0.533603132990273,0
+U027,R082,5,33,Female,25.9,None,Nut-Free,French,Tangy,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.7344171540847275,0.6366740397377376,1
+U043,R059,3,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.9667640301106711,0.9707258316564576,0
+U035,R041,5,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.7340153464258873,0.749468596768637,1
+U015,R018,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.7818361218644588,0.8902219109848017,1
+U064,R059,3,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.8723534299613487,0.7008922190172082,0
+U092,R048,3,35,Other,31.3,None,High-Protein,Thai,Sour,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.7732212411814529,0.851320777573361,0
+U016,R045,2,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.6823041025978447,0.5552135437542168,0
+U085,R030,4,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.9438692468494042,0.6554246028042376,1
+U026,R048,4,58,Male,25.7,Diabetes,Keto,Asian,Savory,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.8402732892433098,0.5112509406365162,1
+U073,R057,2,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.7417465256566673,0.7616921689807968,0
+U004,R089,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.9917024377865983,0.5860748174329566,1
+U071,R005,1,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.9362276695390681,0.9828925721556081,0
+U050,R027,5,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.9096652977817334,0.8511863491608758,1
+U011,R022,4,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.9456206042379414,0.5118092436815601,1
+U078,R013,5,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.7226170905483441,0.9268136557248507,1
+U089,R065,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.7262049909595045,0.9537731468695545,1
+U029,R008,5,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.6203292337926738,0.556071586924572,1
+U018,R022,3,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.7717094543530436,0.6298837798784123,0
+U090,R055,2,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250,0.7524962179176303,0.8707758030188213,0
+U096,R091,4,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.9984154434231696,0.9891191349940861,1
+U081,R065,4,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.7454422853211595,0.5369430916455465,1
+U057,R069,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.9114187920125892,0.7354774528176161,1
+U053,R074,5,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15,0.826896979276513,0.671709815566292,1
+U079,R001,5,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.6392493593366205,0.8997724868949895,1
+U003,R078,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.6940642497578721,0.8761475915753003,1
+U051,R091,2,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.8916803135322953,0.726496292238255,0
+U053,R012,4,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7742027545111455,0.5992326017113152,1
+U087,R053,2,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.9673519830391667,0.8996484731902108,0
+U024,R082,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.7105330072414807,0.5421252377978885,1
+U020,R032,5,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.9967922214836231,0.7294127064927276,1
+U020,R100,4,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.8267397411676637,0.9398802810641504,1
+U006,R049,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.8499289343183364,0.7758501247118141,1
+U060,R053,2,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.6848376796730817,0.7808989092175398,0
+U087,R002,4,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.6471578268596935,0.5990988294600701,1
+U075,R056,3,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.9426693658600203,0.6000948414753757,0
+U010,R045,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35,0.7786406928651102,0.6228270360492516,1
+U068,R014,2,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.6036877066946728,0.889747433416846,0
+U091,R083,3,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40,0.8765610701020068,0.9236892854970491,0
+U006,R059,4,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.9008771415956873,0.7295627633247588,1
+U099,R074,5,48,Other,20.5,Obesity,Vegan,Asian,Umami,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15,0.7605576438661227,0.8751975239805122,1
+U082,R032,3,69,Other,23.3,None,Paleo,Mediterranean,Salty,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.991547403875455,0.572790659934262,0
+U014,R007,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.9540456772935527,0.8350464917378421,1
+U007,R012,5,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.8547865495286401,0.6450547380588063,1
+U055,R084,3,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.6289845340254414,0.9185658687136726,0
+U061,R095,4,66,Other,21.3,None,Gluten-Free,French,Sour,Smoothie Bowl,American,Healthy Breakfast,10,180,6,32,4,6,70,2.5,80,0.816103132537536,0.7447800602442263,1
+U074,R003,2,67,Other,32.7,Obesity,Keto,French,Savory,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.8703025280661285,0.9087923321033022,0
+U097,R006,4,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.9398379434157385,0.8874386293829906,1
+U060,R022,5,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.663485722666073,0.5988279687399145,1
+U007,R039,3,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.9158844659511829,0.7545814075817233,0
+U030,R101,4,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.6808180981175904,0.597420372636329,1
+U048,R010,5,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120,0.6510811850506171,0.5887542122718996,1
+U029,R061,4,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.753067141776238,0.5166026989782252,1
+U001,R103,3,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.7695815555886744,0.5622153585272271,0
+U065,R053,5,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180,0.7952896120505497,0.5939659072108434,1
+U009,R054,3,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.8530358485028402,0.7967542511720666,0
+U021,R085,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80,0.7517747195572753,0.9676899571540392,1
+U010,R076,2,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.6383366001962373,0.6593382384439075,0
+U024,R016,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.8368930173839012,0.6481559534713386,1
+U062,R063,5,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40,0.8457430834567928,0.6549328966502334,1
+U088,R006,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.6863582086326411,0.5819595137775171,1
+U036,R022,2,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.6658009321350461,0.755211126971018,0
+U076,R007,4,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.7151303386841854,0.5532348821055213,1
+U014,R001,3,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.7704448971555751,0.6801875705456805,0
+U026,R003,4,58,Male,25.7,Diabetes,Keto,Asian,Savory,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.8801282129273077,0.683070369999291,1
+U026,R025,3,58,Male,25.7,Diabetes,Keto,Asian,Savory,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.9469654871511718,0.553794130020056,0
+U044,R072,4,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.7796854291243378,0.6931404907338176,1
+U046,R001,3,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.9095748702871418,0.7041202677415476,0
+U098,R086,5,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.9508105245626078,0.9616665676033719,1
+U091,R064,5,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.9777082794174552,0.7666981797760701,1
+U070,R004,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Aloo Gobi,Indian,Vegetarian,25,180,6,28,5,6,60,2.1,45,0.9649775722472693,0.7727631937979718,1
+U015,R025,4,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.8709200117835584,0.5859702878392731,1
+U050,R025,4,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.9420719096841621,0.5419696234272293,1
+U031,R051,1,56,Female,25.5,None,Vegetarian,French,Savory,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.8602667617112041,0.8422961261818858,0
+U056,R022,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.9471787346818855,0.521676752346504,1
+U096,R098,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.876242189633893,0.6058957680570034,1
+U039,R054,3,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.8472598326100929,0.9885988462482057,0
+U041,R028,5,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy,Vegetable Enchiladas,Mexican,Vegetarian,30,250,10,32,8,6,30,2.8,150,0.8764091826477021,0.814857476272771,1
+U023,R020,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120,0.6652943283304108,0.5943014473911966,1
+U066,R030,1,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.7312304859701947,0.6899993914818728,0
+U040,R073,5,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.971041867445968,0.5910817595780896,1
+U009,R003,4,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.9265119751226182,0.9982996420805558,1
+U093,R040,5,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.6504039284985182,0.9054151747028814,1
+U012,R013,3,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.6404677226835751,0.6514435163566681,0
+U055,R001,3,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.8411469580005859,0.9532012157943344,0
+U057,R014,5,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.6156958359333183,0.5483680404025426,1
+U086,R086,4,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.9946690262140895,0.7455959771673298,1
+U021,R012,5,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.6274308200588217,0.8024110277754426,1
+U046,R044,5,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30,0.6886506020784194,0.6666890328884628,1
+U088,R011,4,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.6079991700170998,0.9300579144672296,1
+U086,R043,5,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40,0.7450279057522289,0.5681848992819667,1
+U086,R004,1,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Aloo Gobi,Indian,Vegetarian,25,180,6,28,5,6,60,2.1,45,0.9893390069952605,0.5350516011877474,0
+U051,R024,4,50,Male,34.4,None,Dairy-Free,Thai,Sweet,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.6156493921513554,0.5227892259496711,1
+U099,R100,5,48,Other,20.5,Obesity,Vegan,Asian,Umami,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.7476897171933734,0.5657222558869174,1
+U085,R062,4,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.8013015953285736,0.6641835925802617,1
+U079,R079,3,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60,0.6455649811412681,0.675384716359891,0
+U057,R001,3,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.980809469781743,0.8551110632268588,0
+U012,R067,4,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80,0.8628690681337162,0.8278289638512315,1
+U075,R012,5,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7530099570440318,0.8502024744384868,1
+U039,R071,5,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Vegan Tacos,Mexican,Vegan,20,200,8,28,6,6,25,3.5,60,0.9062780452313599,0.6380702371133076,1
+U076,R041,5,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.7051913299426349,0.8040151981213719,1
+U001,R002,5,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350,0.6289062393117684,0.6991172311154312,1
+U059,R090,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.7711285805547174,0.680729285435977,1
+U035,R101,4,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.9625149183428199,0.7543181813590789,1
+U023,R055,2,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250,0.6338938741359748,0.8386059712286592,0
+U033,R069,5,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.9719600934231517,0.9237284144542257,1
+U020,R001,4,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.6523425628405893,0.96101346775112,1
+U025,R049,4,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.8391629705040412,0.6615400836227513,1
+U084,R087,5,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120,0.8353749745374095,0.6770376897528114,1
+U018,R081,2,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.8688811615434455,0.9333925918907413,0
+U010,R080,5,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.840446810920635,0.8381770011726128,1
+U003,R014,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60,0.8109883131577214,0.8148884438796515,1
+U081,R024,4,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.8477194689119253,0.5104504964348011,1
+U009,R101,5,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.6045114583502944,0.8904073275185418,1
+U082,R031,2,69,Other,23.3,None,Paleo,Mediterranean,Salty,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.837466752109084,0.8434750074294685,0
+U014,R090,2,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.9198960634467412,0.5009447731375258,0
+U004,R015,5,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.9436455750818692,0.8792258111649656,1
+U078,R005,4,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.8732025061506945,0.6419143935416067,1
+U039,R088,3,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7336398787881507,0.9691093932170021,0
+U020,R086,5,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.814502647735998,0.8404260238961435,1
+U090,R092,4,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,French Toast,American,Breakfast,15,220,10,28,8,1,1,2.8,100,0.9173267910018408,0.9437716535701137,1
+U049,R013,4,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.9109545538203592,0.9764945177414208,1
+U086,R061,2,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.6454107904913775,0.8716542826752729,0
+U025,R096,4,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60,0.925434539876612,0.9974754611438341,1
+U061,R050,5,66,Other,21.3,None,Gluten-Free,French,Sour,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.8876552241131741,0.5900657046396133,1
+U065,R073,4,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.9704145616471286,0.5657931896411503,1
+U062,R066,3,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40,0.6558957057045702,0.5817922561326961,0
+U035,R086,2,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.6918147101140725,0.8302305086038504,0
+U066,R080,2,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.7931877798425331,0.7174406305737473,0
+U087,R052,5,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.8903782864598204,0.9050533844890152,1
+U070,R101,4,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20,0.8236473375005818,0.7809498326309929,1
+U010,R073,4,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.756085152486995,0.6886979842646179,1
+U080,R007,3,39,Other,19.5,Food Allergies,Paleo,French,Sour,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.7239329564241844,0.6182344947481229,0
+U087,R009,5,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.8073062770279721,0.7510784601480566,1
+U096,R097,4,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.7447920758463076,0.9358781911928213,1
+U090,R016,4,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.6655329529951138,0.8190943453016057,1
+U003,R097,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.7845835824093301,0.7379282051844813,1
+U059,R052,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.9406566869091995,0.7784789369001162,1
+U082,R006,3,69,Other,23.3,None,Paleo,Mediterranean,Salty,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.6882070540943412,0.5237190188887417,0
+U015,R001,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.8086004813384484,0.5588304158943608,1
+U026,R021,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.9083264891394519,0.6718980396377988,1
+U014,R040,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.6153653885443011,0.5530547023997585,1
+U049,R046,5,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9289849928898211,0.656616447613782,1
+U088,R059,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.7530859363310924,0.6634534638897672,1
+U057,R006,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.8040558206303884,0.8462836353263092,1
+U069,R086,4,54,Male,27.3,Underweight,High-Protein,American,Tangy,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25,0.9623559417517867,0.6657173546573876,1
+U079,R078,5,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.6235711525008188,0.8987883925943561,1
+U094,R041,5,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.7289179247721564,0.9383459960640929,1
+U003,R061,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.7859050135470989,0.6791561129404196,1
+U085,R022,5,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.7697089159502131,0.6143135656168124,1
+U078,R019,4,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.8214853637446499,0.9084626421988402,1
+U005,R011,4,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.666338508655586,0.630313751729396,1
+U043,R027,4,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20,0.8593047270573476,0.688814278956746,1
+U018,R021,5,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.6397604429004373,0.8729187725442763,1
+U026,R064,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.7876810671603932,0.6653340059286892,1
+U089,R082,4,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100,0.6733909985046368,0.948632306204868,1
+U057,R056,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.7823839469683207,0.5750333273336602,1
+U007,R001,2,68,Female,34.0,Digestive Issues,Keto,Italian,Sour,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120,0.8332472749435349,0.5532310529513431,0
+U094,R084,5,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.700412089097249,0.8505742092311741,1
+U031,R090,5,56,Female,25.5,None,Vegetarian,French,Savory,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.8570757819807303,0.6061405894761964,1
+U011,R056,5,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.9286745045180534,0.526482861209734,1
+U066,R060,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25,0.7837750381177221,0.7623631207936012,1
+U085,R062,1,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.8070671012275471,0.7249196457233626,0
+U074,R051,3,67,Other,32.7,Obesity,Keto,French,Savory,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.920137401719989,0.9614994207033982,0
+U069,R012,4,54,Male,27.3,Underweight,High-Protein,American,Tangy,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7075045742628655,0.7011318174617387,1
+U056,R009,5,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.9528766895263084,0.6958628583971237,1
+U009,R056,4,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.9141561555303732,0.5542297535382712,1
+U014,R048,5,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45,0.9274167456635553,0.9599098583179839,1
+U100,R073,4,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.7536740902619072,0.8388056197097771,1
+U001,R080,4,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.7782817295301772,0.774420113937392,1
+U064,R062,1,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.6791418868154458,0.8111196657916373,0
+U048,R024,4,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60,0.8993545410079637,0.7678591615683337,1
+U013,R061,5,42,Other,32.8,Underweight,Keto,Spanish,Mild,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60,0.761938028915341,0.6579989793860438,1
+U030,R003,3,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80,0.791178436740701,0.9619271672059793,0
+U071,R049,1,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6715252792225782,0.8252057424335344,0
+U004,R035,4,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Chicken Biryani,Indian,Non-Vegetarian,55,450,30,42,18,2,12,3.8,35,0.704240888296689,0.8955656996873512,1
+U082,R078,5,69,Other,23.3,None,Paleo,Mediterranean,Salty,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.8428017017506375,0.8217613197504618,1
+U057,R022,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.9283419920560694,0.8526158705170601,1
+U063,R100,3,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.6928539080879024,0.7924700796627887,0
+U073,R050,5,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.8406505153677402,0.7508968659774209,1
+U089,R030,5,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.7180844011462638,0.8435835673941332,1
+U075,R034,5,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60,0.7013970132022445,0.880150123294539,1
+U018,R046,3,65,Other,26.5,Food Allergies,Keto,Indian,Bitter,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.8254560948630408,0.7383260822619669,0
+U023,R091,5,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.6985187508036227,0.5856735387787024,1
+U068,R032,4,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30,0.6917067805412641,0.5229261245321564,1
+U087,R015,5,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45,0.8117227903920785,0.654664743598218,1
+U016,R038,5,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.945467993485456,0.6136190889281097,1
+U024,R078,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.8748747093714004,0.8726915326138238,1
+U003,R078,5,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.6906548862339795,0.6535506254694075,1
+U014,R012,4,26,Male,24.0,Digestive Issues,Keto,Thai,Sour,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150,0.7287275839430818,0.7941126993676061,1
+U090,R031,5,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80,0.6033450349594366,0.5534187786384677,1
+U008,R046,3,38,Female,32.4,Underweight,Vegan,Chinese,Spicy,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40,0.9451372343669666,0.8473830834472444,0
+U023,R073,3,51,Other,19.4,Obesity,Keto,Mexican,Sweet,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.9472131929067488,0.5858976200193926,0
+U055,R040,4,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80,0.8644025543309478,0.6063347236212355,1
+U005,R090,2,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.7063021489454936,0.7846405748033356,0
+U095,R076,2,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.6608940777767344,0.6884015576826897,0
+U061,R077,5,66,Other,21.3,None,Gluten-Free,French,Sour,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25,0.9640320011888616,0.7487964833630565,1
+U073,R093,3,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60,0.6552346413200015,0.9307478950164629,0
+U046,R030,3,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40,0.6178580527143347,0.7454562443589569,0
+U042,R021,4,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60,0.6995123058884215,0.7481585660267804,1
+U013,R022,4,42,Other,32.8,Underweight,Keto,Spanish,Mild,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.8666553069148862,0.5696374488171798,1
+U015,R029,5,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60,0.7172653520793363,0.7004850976823548,1
+U029,R097,3,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40,0.7829856046506039,0.6276983792886016,0
+U063,R060,4,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25,0.9996205548393056,0.5468784167561797,1
+U065,R051,3,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30,0.7239934279622129,0.9227754011056897,0
+U077,R005,3,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95,0.8919971746389133,0.7630667551396925,0
+U072,R016,1,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180,0.8394600282176932,0.8260459710863408,0
+U033,R019,5,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.9141435074535585,0.5102943751100162,1
+U035,R059,3,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40,0.8344982553342706,0.9106690535923869,0
+U058,R050,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.7543602213256817,0.9108783274092563,1
+U057,R049,5,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.6322667636388084,0.8926465941879811,1
+U079,R022,4,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80,0.7195539868601679,0.579819960778912,1
+U079,R088,1,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.7941832971196164,0.9675527579079082,0
+U067,R089,5,60,Other,26.1,Diabetes,Gluten-Free,French,Savory,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.6799502873845091,0.5815982457801903,1
+U059,R072,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30,0.8573705932881508,0.5047058879551671,1
+U035,R076,1,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12,0.843070381586552,0.715939674264183,0
+U006,R025,5,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120,0.9177094551300832,0.5074357332285355,1
+U058,R074,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15,0.881261944274023,0.7666712158566144,1
+U082,R049,4,69,Other,23.3,None,Paleo,Mediterranean,Salty,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.7952633524082684,0.7753439599777749,1
+U049,R017,5,68,Male,33.4,Heart Disease,Vegan,Thai,Umami,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.6726843680201999,0.5708206634989366,1
+U038,R035,5,24,Male,19.6,None,Keto,American,Bitter,Chicken Biryani,Indian,Non-Vegetarian,55,450,30,42,18,2,12,3.8,35,0.843725957163165,0.6081241638924397,1
+U002,R049,4,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20,0.699826779965296,0.8218737456415963,1
+U056,R100,4,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40,0.6454356218209883,0.5118550504085124,1
+U006,R035,5,69,Male,23.9,Obesity,Nut-Free,American,Bitter,Chicken Biryani,Indian,Non-Vegetarian,55,450,30,42,18,2,12,3.8,35,0.7101003701138114,0.5515912540784029,1
+U055,R078,5,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20,0.7827375625556282,0.6527878076818976,1
+U066,R054,5,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.634627680077614,0.6437934418587286,1
+U003,R041,4,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180,0.8469995509810345,0.795976826908024,1
+U044,R007,5,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.6569126263515433,0.846550696592517,1
+U059,R056,1,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.7994480917088049,0.9932195466650204,0
+U094,R013,1,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.667692985077011,0.9065946205091705,0
+U063,R088,5,31,Male,24.4,None,Gluten-Free,Spanish,Bitter,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100,0.8618819715420218,0.5055808427504235,1
+U020,R080,4,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80,0.9412187511033051,0.9717380384132732,1
+U075,R050,5,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40,0.8470919124831763,0.7919963911646654,1
+U034,R011,4,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80,0.6063220887508051,0.6038531257570003,1
+U058,R019,4,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80,0.693944978718936,0.6347397656761016,1
+U002,R090,2,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.7533440946310326,0.6884300435532227,0
+U086,R008,4,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40,0.607042532454204,0.8623722066621354,1
+U004,R037,3,22,Female,33.8,Food Allergies,High-Protein,American,Bitter,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200,0.6772704332150791,0.9347228556312245,0
+U038,R071,4,24,Male,19.6,None,Keto,American,Bitter,Vegan Tacos,Mexican,Vegan,20,200,8,28,6,6,25,3.5,60,0.617537232615337,0.7645274322648266,1
+U021,R089,4,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20,0.9819861354344841,0.916451646573851,1
+U024,R052,5,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80,0.8534366196360017,0.9209424723918056,1
+U011,R065,4,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.8067444464592481,0.7992287638393106,1
+U012,R091,4,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120,0.979872842987321,0.5136561794079957,1
+U059,R057,5,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80,0.9039577362986397,0.5370997118809664,1
+U026,R069,5,58,Male,25.7,Diabetes,Keto,Asian,Savory,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.9446997470475865,0.6903921220695748,1
+U066,R038,3,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120,0.8797124660099389,0.7030626633219828,0
+U066,R069,3,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.8193593099905399,0.866193258551708,0
+U045,R098,5,69,Other,21.7,None,Keto,French,Salty,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.6494476886889031,0.661100851204794,1
+U060,R069,5,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.87613674645454,0.8615669083530344,1
+U074,R058,4,67,Other,32.7,Obesity,Keto,French,Savory,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60,0.8934244644263913,0.6522243429927419,1
+U100,R084,4,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.8455827049732751,0.6482480482509316,1
+U050,R062,4,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.8691756631194386,0.7092504302243174,1
+U064,R023,5,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40,0.9252157192270193,0.6267085861355628,1
+U029,R098,5,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30,0.7283202913248508,0.5316452216879408,1
+U057,R062,4,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80,0.9162628462911897,0.9876607312814405,1
+U097,R054,5,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120,0.8059895203846622,0.9109073741841456,1
+U074,R007,5,67,Other,32.7,Obesity,Keto,French,Savory,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30,0.8245609352577077,0.9315524555667554,1
+U096,R099,5,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25,0.9243958275413632,0.9671199924028886,1
+U098,R033,4,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50,0.9897729986974697,0.52843031218112,1
+U060,R084,5,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150,0.8472998580065758,0.8546409260536962,1
+U097,R017,1,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30,0.7113123349502107,0.7026971155919747,0
+U097,R064,5,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50,0.9731814998794179,0.5170024485893463,1
+U031,R006,4,56,Female,25.5,None,Vegetarian,French,Savory,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25,0.9929564086421211,0.6274422665285871,1
+U083,R081,2,20,Other,30.9,Heart Disease,Low-Carb,American,Sour,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60,0.893905417715871,0.8091105744540505,0
+U055,R103,5,60,Female,17.2,None,Vegetarian,Japanese,Herbal,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20,0.6542890905190423,0.946468728335459,1
+U081,R090,5,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120,0.9699530519751938,0.546607500596455,1
+U092,R013,1,35,Other,31.3,None,High-Protein,Thai,Sour,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280,0.8182165771836716,0.9693080088048801,0
+U019,R065,4,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60,0.6773167179333245,0.8466200797579582,1
+U034,R068,5,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60,0.8738156484492016,0.6586463380011265,1
+U077,R018,2,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20,0.9217679515878829,0.9321381268203915,0
+U036,R039,2,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150,0.9956464839751534,0.6347196785402613,0
+U046,R047,2,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.898954872802717,0.639292747469672,0
+U036,R009,4,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200,0.8802755963683431,0.8391258161718355,1
+U017,R056,3,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25,0.9831326328243877,0.9122475010749118,0
+U039,R075,1,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10,0.7246692234882952,0.8746948147479369,0
+U019,R047,4,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60,0.8859838829620049,0.6742204191114247,1
+U088,R069,5,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35,0.8826999753248216,0.7444492378131564,1
+U077,R073,5,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20,0.6826326704747951,0.9544640541273306,1

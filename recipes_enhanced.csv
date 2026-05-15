@@ -1,0 +1,104 @@
+Recipe_ID,Recipe_Name,Cuisine,Diet_Type,Cooking_Time,Calories,Protein_g,Carbs_g,Fat_g,Fiber_g,Vitamin_C_mg,Iron_mg,Calcium_mg
+R001,Dal Makhani,Indian,Vegetarian,45,320,18,45,8,12,15,4.2,120
+R002,Palak Paneer,Indian,Vegetarian,30,280,22,12,16,4,45,3.8,350
+R003,Chana Masala,Indian,Vegetarian,35,250,15,38,6,10,25,3.5,80
+R004,Aloo Gobi,Indian,Vegetarian,25,180,6,28,5,6,60,2.1,45
+R005,Rajma Curry,Indian,Vegetarian,40,290,16,42,7,14,20,4.8,95
+R006,Biryani Rice,Indian,Vegetarian,50,350,8,65,8,3,12,1.8,25
+R007,Samosa,Indian,Vegetarian,30,220,5,28,10,3,8,1.2,30
+R008,Pakora,Indian,Vegetarian,20,180,4,22,8,2,15,1.5,40
+R009,Margherita Pizza,Italian,Vegetarian,25,280,12,35,10,2,8,1.8,200
+R010,Pasta Primavera,Italian,Vegetarian,20,320,14,45,8,4,35,2.2,120
+R011,Risotto,Italian,Vegetarian,35,380,10,55,12,2,5,1.5,80
+R012,Caprese Salad,Italian,Vegetarian,10,150,8,8,10,1,25,0.8,150
+R013,Eggplant Parmesan,Italian,Vegetarian,45,320,16,25,18,6,12,2.5,280
+R014,Minestrone Soup,Italian,Vegetarian,30,180,8,28,4,8,40,2.8,60
+R015,Vegetable Stir Fry,Asian,Vegetarian,15,120,4,18,3,5,55,1.8,45
+R016,Tofu Curry,Asian,Vegetarian,25,200,16,12,10,3,20,3.2,180
+R017,Vegetable Spring Rolls,Asian,Vegetarian,20,80,3,12,2,2,25,1.2,30
+R018,Miso Soup,Asian,Vegetarian,10,35,2,4,1,1,5,0.8,20
+R019,Vegetable Ramen,Asian,Vegetarian,20,280,12,45,6,4,30,2.5,80
+R020,Greek Salad,Mediterranean,Vegetarian,10,200,8,12,14,3,35,1.5,120
+R021,Hummus,Mediterranean,Vegetarian,15,180,8,18,8,6,8,2.8,60
+R022,Falafel,Mediterranean,Vegetarian,30,220,10,25,8,6,12,3.5,80
+R023,Ratatouille,Mediterranean,Vegetarian,40,120,4,18,4,6,45,1.8,40
+R024,Stuffed Bell Peppers,Mediterranean,Vegetarian,35,180,8,22,6,5,80,2.2,60
+R025,Bean Burrito,Mexican,Vegetarian,15,320,14,45,8,12,15,3.8,120
+R026,Vegetable Quesadilla,Mexican,Vegetarian,20,280,12,28,12,4,25,2.5,200
+R027,Guacamole,Mexican,Vegetarian,10,160,2,8,14,6,20,0.8,20
+R028,Vegetable Enchiladas,Mexican,Vegetarian,30,250,10,32,8,6,30,2.8,150
+R029,Chicken Curry,Indian,Non-Vegetarian,40,350,28,15,18,3,20,3.2,60
+R030,Mutton Biryani,Indian,Non-Vegetarian,60,480,32,45,20,2,15,4.5,40
+R031,Fish Curry,Indian,Non-Vegetarian,30,280,35,8,12,2,25,2.8,80
+R032,Chicken Tikka,Indian,Non-Vegetarian,35,220,25,5,10,1,8,2.2,30
+R033,Lamb Rogan Josh,Indian,Non-Vegetarian,50,420,30,12,25,2,18,4.8,50
+R034,Prawn Curry,Indian,Non-Vegetarian,25,200,22,8,8,2,15,2.5,60
+R035,Chicken Biryani,Indian,Non-Vegetarian,55,450,30,42,18,2,12,3.8,35
+R036,Egg Curry,Indian,Non-Vegetarian,20,180,14,8,10,2,12,2.8,80
+R037,Chicken Parmesan,Italian,Non-Vegetarian,35,420,35,25,18,2,8,2.5,200
+R038,Spaghetti Carbonara,Italian,Non-Vegetarian,20,480,20,45,22,2,5,2.2,120
+R039,Chicken Alfredo,Italian,Non-Vegetarian,25,520,28,35,28,2,8,2.8,150
+R040,Seafood Risotto,Italian,Non-Vegetarian,40,380,25,42,12,2,12,3.2,80
+R041,Pepperoni Pizza,Italian,Non-Vegetarian,25,320,18,32,14,2,8,2.8,180
+R042,Chicken Marsala,Italian,Non-Vegetarian,30,350,32,15,16,1,5,2.2,40
+R043,Chicken Stir Fry,Asian,Non-Vegetarian,20,250,28,15,8,3,35,2.8,40
+R044,Beef Teriyaki,Asian,Non-Vegetarian,25,320,35,18,12,2,15,4.2,30
+R045,Sweet and Sour Chicken,Asian,Non-Vegetarian,30,380,25,35,15,2,25,2.5,35
+R046,Pork Dumplings,Asian,Non-Vegetarian,35,280,18,25,12,2,8,2.8,40
+R047,Chicken Ramen,Asian,Non-Vegetarian,25,420,32,45,12,3,20,3.5,60
+R048,Beef Noodles,Asian,Non-Vegetarian,20,450,35,38,18,3,15,4.8,45
+R049,Grilled Salmon,Mediterranean,Non-Vegetarian,20,280,35,2,14,0,5,1.8,20
+R050,Chicken Souvlaki,Mediterranean,Non-Vegetarian,30,320,32,8,16,1,12,2.5,40
+R051,Lamb Kebab,Mediterranean,Non-Vegetarian,35,380,35,5,22,1,8,4.2,30
+R052,Fish Tacos,Mediterranean,Non-Vegetarian,25,280,25,22,10,3,20,2.8,80
+R053,Chicken Enchiladas,Mexican,Non-Vegetarian,35,380,28,32,15,4,25,3.2,180
+R054,Beef Tacos,Mexican,Non-Vegetarian,20,320,22,25,14,3,15,3.8,120
+R055,Chicken Quesadilla,Mexican,Non-Vegetarian,15,420,32,28,18,2,8,2.8,250
+R056,Pork Carnitas,Mexican,Non-Vegetarian,45,350,35,8,18,1,5,3.5,25
+R057,Vegan Dal,Indian,Vegan,35,250,15,38,6,12,18,4.5,80
+R058,Vegan Curry,Indian,Vegan,30,200,8,28,8,6,35,3.2,60
+R059,Vegan Biryani,Indian,Vegan,45,320,8,58,8,4,20,2.8,40
+R060,Vegan Samosa,Indian,Vegan,25,180,4,25,8,3,12,1.8,25
+R061,Vegan Pasta,Italian,Vegan,20,280,10,45,6,4,25,2.5,60
+R062,Vegan Pizza,Italian,Vegan,25,250,8,35,8,3,15,2.2,80
+R063,Vegan Risotto,Italian,Vegan,30,320,8,55,8,3,8,2.8,40
+R064,Vegan Stir Fry,Asian,Vegan,15,120,4,18,3,5,55,2.2,50
+R065,Vegan Ramen,Asian,Vegan,20,250,8,42,6,4,35,3.5,60
+R066,Vegan Sushi,Asian,Vegan,30,180,6,32,2,2,20,2.8,40
+R067,Vegan Hummus Bowl,Mediterranean,Vegan,15,220,10,25,8,8,30,3.8,80
+R068,Vegan Falafel,Mediterranean,Vegan,30,200,8,22,8,6,15,3.2,60
+R069,Vegan Ratatouille,Mediterranean,Vegan,35,100,3,15,3,5,50,1.8,35
+R070,Vegan Burrito,Mexican,Vegan,15,280,12,42,6,10,20,4.2,80
+R071,Vegan Tacos,Mexican,Vegan,20,200,8,28,6,6,25,3.5,60
+R072,Keto Chicken,American,Keto,25,320,35,2,18,1,5,2.8,30
+R073,Keto Steak,American,Keto,20,450,42,1,28,0,2,5.2,20
+R074,Keto Salmon,American,Keto,15,380,38,1,22,0,3,1.5,15
+R075,Keto Bacon,American,Keto,10,280,18,1,22,0,0,1.2,10
+R076,Keto Avocado,American,Keto,5,160,2,8,14,6,10,0.6,12
+R077,Keto Cauliflower,American,Keto,20,80,3,8,4,3,60,0.8,25
+R078,Keto Zucchini,American,Keto,15,60,2,6,3,2,25,0.5,20
+R079,Keto Spinach,American,Keto,10,40,3,4,2,2,35,2.8,60
+R080,Grilled Chicken Salad,American,Healthy,20,180,25,8,6,3,45,2.2,80
+R081,Quinoa Bowl,American,Healthy,25,220,12,35,6,5,30,3.8,60
+R082,Green Smoothie,American,Healthy,5,120,4,22,2,4,80,2.5,100
+R083,Oatmeal,American,Healthy,10,150,6,25,3,4,5,2.8,40
+R084,Greek Yogurt,American,Healthy,2,100,15,8,2,0,2,0.5,150
+R085,Chocolate Cake,American,Dessert,45,350,6,45,16,3,2,2.8,80
+R086,Apple Pie,American,Dessert,60,320,4,42,16,4,8,1.8,25
+R087,Ice Cream,American,Dessert,5,200,4,22,10,0,2,0.8,120
+R088,Cheesecake,American,Dessert,90,400,8,35,25,1,1,1.2,100
+R089,Fruit Salad,American,Healthy Dessert,10,80,1,18,0,3,60,0.8,20
+R090,Yogurt Parfait,American,Healthy Dessert,5,120,8,18,2,2,25,1.2,120
+R091,Pancakes,American,Breakfast,20,250,8,35,8,2,2,2.2,120
+R092,French Toast,American,Breakfast,15,220,10,28,8,1,1,2.8,100
+R093,Scrambled Eggs,American,Breakfast,10,180,14,2,12,0,0,1.8,60
+R094,Omelette,American,Breakfast,15,200,16,3,14,1,8,2.2,80
+R095,Smoothie Bowl,American,Healthy Breakfast,10,180,6,32,4,6,70,2.5,80
+R096,Avocado Toast,American,Healthy Breakfast,5,220,8,22,12,8,15,2.8,60
+R097,Tomato Soup,American,Soup,25,120,4,18,4,3,25,1.8,40
+R098,Chicken Noodle Soup,American,Soup,30,150,12,18,4,2,15,2.2,30
+R099,Vegetable Soup,American,Soup,20,80,3,12,2,4,40,1.5,25
+R100,Lentil Soup,American,Soup,35,180,12,28,4,8,20,3.8,40
+R101,Miso Soup,Asian,Soup,10,35,2,4,1,1,5,0.8,20
+R102,Pho,Asian,Soup,45,300,25,35,8,2,15,3.2,60
+R103,Gazpacho,Mediterranean,Soup,15,60,2,12,1,2,45,1.2,20

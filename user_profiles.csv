@@ -1,0 +1,201 @@
+User_ID,Age,Gender,BMI,Health_Condition,Dietary_Restriction,Preferred_Cuisine,Taste_Preference
+U001,24,Male,25.3,Diabetes,Vegetarian,Indian,Sweet
+U002,57,Other,21.5,Iron Deficiency,Vegetarian,Italian,Mild
+U003,43,Male,23.2,Vitamin D Deficiency,Vegetarian,Asian,Savory
+U004,54,Male,31.9,Diabetes,Vegetarian,Mediterranean,Mild
+U005,23,Other,31.9,None,Vegetarian,Mexican,Spicy
+U006,43,Female,23.3,Vitamin D Deficiency,Vegetarian,American,Spicy
+U007,58,Male,27.8,None,Non-Vegetarian,Indian,Savory
+U008,45,Other,29.0,High Blood Pressure,Non-Vegetarian,Italian,Spicy
+U009,51,Male,21.2,High Blood Pressure,Non-Vegetarian,Asian,Savory
+U010,35,Male,30.9,Iron Deficiency,Non-Vegetarian,Mediterranean,Tangy
+U011,54,Other,18.5,Iron Deficiency,Non-Vegetarian,Mexican,Spicy
+U012,31,Other,20.0,Vitamin D Deficiency,Non-Vegetarian,American,Spicy
+U013,37,Male,25.9,High Blood Pressure,Vegan,Indian,Savory
+U014,52,Female,23.4,Diabetes,Vegan,Italian,Spicy
+U015,50,Other,31.6,None,Vegan,Asian,Spicy
+U016,45,Male,29.7,Iron Deficiency,Vegan,Mediterranean,Tangy
+U017,57,Other,23.6,Iron Deficiency,Vegan,Mexican,Spicy
+U018,58,Female,29.0,Vitamin D Deficiency,Vegan,American,Savory
+U019,32,Female,25.7,Vitamin D Deficiency,Keto,Indian,Savory
+U020,29,Other,26.2,Vitamin D Deficiency,Keto,Italian,Spicy
+U021,57,Female,29.2,None,Keto,Asian,Spicy
+U022,35,Male,23.3,Diabetes,Keto,Mediterranean,Savory
+U023,38,Female,19.5,None,Keto,Mexican,Mild
+U024,46,Female,28.7,None,Keto,American,Sweet
+U025,23,Male,24.0,High Blood Pressure,Paleo,Indian,Tangy
+U026,50,Female,19.4,None,Paleo,Italian,Mild
+U027,53,Male,26.4,Iron Deficiency,Paleo,Asian,Savory
+U028,18,Female,23.8,None,Paleo,Mediterranean,Tangy
+U029,33,Other,25.3,Vitamin D Deficiency,Paleo,Mexican,Sweet
+U030,26,Female,22.2,Vitamin D Deficiency,Paleo,American,Sweet
+U031,22,Male,25.4,Vitamin D Deficiency,Vegan,Mediterranean,Spicy
+U032,41,Female,34.1,Vitamin D Deficiency,Paleo,Mexican,Sweet
+U033,47,Male,20.3,None,Keto,Asian,Tangy
+U034,42,Female,25.5,Vitamin D Deficiency,Paleo,Italian,Mild
+U035,38,Other,34.1,Diabetes,Keto,Asian,Sweet
+U036,43,Female,23.0,Vitamin D Deficiency,Paleo,Italian,Mild
+U037,42,Female,31.9,Vitamin D Deficiency,Vegan,Indian,Tangy
+U038,30,Other,35.0,Diabetes,Paleo,Indian,Savory
+U039,63,Male,25.5,Iron Deficiency,Vegetarian,Mediterranean,Savory
+U040,26,Other,23.1,Iron Deficiency,Non-Vegetarian,American,Savory
+U041,42,Male,25.6,High Blood Pressure,Keto,Mexican,Savory
+U042,52,Other,33.7,Vitamin D Deficiency,Paleo,Indian,Mild
+U043,62,Other,28.1,None,Vegetarian,Italian,Mild
+U044,28,Other,28.4,High Blood Pressure,Keto,Asian,Savory
+U045,24,Male,19.7,Diabetes,Paleo,American,Tangy
+U046,53,Other,29.7,Diabetes,Keto,Asian,Savory
+U047,47,Other,28.0,High Blood Pressure,Non-Vegetarian,Asian,Spicy
+U048,48,Male,23.0,None,Vegetarian,American,Sweet
+U049,40,Female,23.8,Diabetes,Paleo,Mediterranean,Mild
+U050,48,Male,25.4,Vitamin D Deficiency,Vegan,Indian,Mild
+U051,20,Other,20.0,Iron Deficiency,Vegetarian,American,Sweet
+U052,65,Male,26.8,High Blood Pressure,Non-Vegetarian,Asian,Tangy
+U053,45,Female,21.9,Vitamin D Deficiency,Non-Vegetarian,Italian,Savory
+U054,43,Male,30.5,Diabetes,Keto,Mexican,Savory
+U055,42,Male,30.0,Diabetes,Vegan,American,Spicy
+U056,54,Male,31.6,High Blood Pressure,Non-Vegetarian,Asian,Mild
+U057,30,Female,19.9,Vitamin D Deficiency,Paleo,American,Mild
+U058,56,Female,28.4,High Blood Pressure,Vegetarian,Asian,Mild
+U059,47,Other,20.9,Iron Deficiency,Paleo,Mexican,Spicy
+U060,61,Male,23.3,Diabetes,Vegan,Indian,Sweet
+U061,41,Other,20.4,Vitamin D Deficiency,Keto,Mexican,Sweet
+U062,54,Female,25.2,Vitamin D Deficiency,Paleo,American,Sweet
+U063,53,Male,26.3,Diabetes,Non-Vegetarian,Asian,Savory
+U064,57,Male,32.7,None,Keto,Italian,Sweet
+U065,42,Other,26.6,Vitamin D Deficiency,Keto,American,Savory
+U066,44,Other,32.3,Vitamin D Deficiency,Non-Vegetarian,Indian,Tangy
+U067,19,Male,23.0,Iron Deficiency,Non-Vegetarian,Mexican,Mild
+U068,28,Female,27.6,Vitamin D Deficiency,Paleo,Mexican,Spicy
+U069,54,Male,22.6,High Blood Pressure,Vegan,Mexican,Spicy
+U070,64,Female,27.3,Vitamin D Deficiency,Vegetarian,American,Sweet
+U071,37,Male,25.6,Iron Deficiency,Vegetarian,Mediterranean,Spicy
+U072,33,Male,31.8,High Blood Pressure,Vegan,American,Tangy
+U073,58,Female,20.8,Diabetes,Non-Vegetarian,Italian,Spicy
+U074,54,Female,27.0,High Blood Pressure,Paleo,Italian,Mild
+U075,63,Female,22.9,Iron Deficiency,Paleo,American,Spicy
+U076,26,Female,33.6,Iron Deficiency,Non-Vegetarian,American,Sweet
+U077,33,Male,30.1,Diabetes,Keto,Mediterranean,Sweet
+U078,54,Other,22.6,Vitamin D Deficiency,Keto,Mediterranean,Spicy
+U079,58,Male,24.8,Iron Deficiency,Vegan,Mediterranean,Savory
+U080,38,Other,18.0,None,Keto,American,Mild
+U081,22,Other,24.8,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Mild
+U082,38,Female,23.7,High Blood Pressure,Non-Vegetarian,Mexican,Savory
+U083,39,Other,31.0,None,Vegetarian,American,Savory
+U084,19,Male,33.8,Diabetes,Keto,Mediterranean,Spicy
+U085,45,Male,34.9,Diabetes,Vegan,Italian,Mild
+U086,23,Other,24.1,None,Vegan,American,Sweet
+U087,21,Female,28.6,Diabetes,Keto,American,Spicy
+U088,63,Male,18.0,Vitamin D Deficiency,Vegetarian,Italian,Tangy
+U089,32,Other,29.6,None,Vegetarian,American,Mild
+U090,25,Female,29.8,Vitamin D Deficiency,Vegetarian,Italian,Savory
+U091,23,Other,31.7,None,Vegan,Asian,Mild
+U092,26,Female,31.1,Diabetes,Non-Vegetarian,Indian,Tangy
+U093,54,Male,28.4,Diabetes,Keto,Asian,Sweet
+U094,58,Other,20.6,Vitamin D Deficiency,Paleo,American,Savory
+U095,31,Male,33.2,Diabetes,Vegetarian,Mexican,Savory
+U096,40,Female,23.3,Diabetes,Non-Vegetarian,Asian,Spicy
+U097,33,Other,28.2,High Blood Pressure,Vegan,American,Spicy
+U098,60,Female,21.5,High Blood Pressure,Paleo,Italian,Savory
+U099,36,Other,18.9,Diabetes,Keto,Mediterranean,Spicy
+U100,33,Female,28.8,None,Paleo,Indian,Mild
+U101,38,Male,24.6,High Blood Pressure,Keto,Asian,Tangy
+U102,61,Male,31.0,None,Vegetarian,Mexican,Spicy
+U103,18,Female,21.7,None,Keto,Mexican,Mild
+U104,58,Other,26.5,Vitamin D Deficiency,Keto,American,Savory
+U105,23,Other,27.1,High Blood Pressure,Non-Vegetarian,Asian,Spicy
+U106,37,Male,26.7,Diabetes,Non-Vegetarian,Mexican,Mild
+U107,43,Other,28.8,None,Vegan,American,Savory
+U108,64,Male,19.0,None,Keto,Indian,Savory
+U109,57,Other,18.9,Diabetes,Vegetarian,Indian,Sweet
+U110,62,Male,20.8,Iron Deficiency,Paleo,Mexican,Mild
+U111,28,Female,20.2,Iron Deficiency,Vegetarian,Indian,Mild
+U112,45,Female,26.9,Iron Deficiency,Paleo,American,Spicy
+U113,49,Female,26.7,None,Keto,Mexican,Sweet
+U114,41,Male,22.3,None,Paleo,American,Spicy
+U115,32,Other,26.7,None,Vegetarian,Italian,Spicy
+U116,48,Female,24.5,Diabetes,Non-Vegetarian,Indian,Tangy
+U117,63,Other,29.1,Diabetes,Vegan,Italian,Savory
+U118,64,Female,22.6,None,Paleo,Asian,Spicy
+U119,50,Other,33.3,Diabetes,Non-Vegetarian,Mexican,Spicy
+U120,43,Male,32.9,Iron Deficiency,Vegan,Asian,Spicy
+U121,53,Female,18.1,Diabetes,Vegan,Mexican,Mild
+U122,65,Other,22.1,Iron Deficiency,Paleo,Mediterranean,Sweet
+U123,64,Other,30.9,Diabetes,Non-Vegetarian,Indian,Savory
+U124,19,Male,27.2,None,Vegan,Indian,Savory
+U125,65,Other,23.2,Diabetes,Paleo,Italian,Savory
+U126,49,Male,34.5,Diabetes,Vegan,Indian,Spicy
+U127,32,Other,25.0,Iron Deficiency,Keto,American,Spicy
+U128,55,Male,26.6,Vitamin D Deficiency,Vegetarian,Mexican,Tangy
+U129,21,Female,29.3,Diabetes,Non-Vegetarian,Asian,Mild
+U130,38,Female,29.9,Iron Deficiency,Vegan,Mediterranean,Mild
+U131,32,Male,34.0,Diabetes,Paleo,Indian,Sweet
+U132,24,Male,25.6,Iron Deficiency,Keto,Indian,Tangy
+U133,40,Male,25.7,Vitamin D Deficiency,Vegan,Indian,Spicy
+U134,28,Other,23.2,High Blood Pressure,Vegetarian,Italian,Mild
+U135,27,Male,30.1,Iron Deficiency,Keto,Mexican,Spicy
+U136,61,Female,22.4,Diabetes,Vegetarian,Mediterranean,Savory
+U137,53,Other,27.4,None,Keto,Indian,Sweet
+U138,25,Male,19.0,Diabetes,Non-Vegetarian,Italian,Savory
+U139,41,Other,28.7,None,Paleo,Mexican,Mild
+U140,22,Male,35.0,Diabetes,Keto,Italian,Spicy
+U141,39,Male,18.7,Vitamin D Deficiency,Vegetarian,Italian,Tangy
+U142,45,Other,24.7,None,Keto,American,Savory
+U143,29,Female,21.7,Diabetes,Vegan,Asian,Savory
+U144,27,Male,28.4,High Blood Pressure,Non-Vegetarian,American,Mild
+U145,49,Female,33.0,Vitamin D Deficiency,Vegetarian,Indian,Mild
+U146,42,Male,25.1,High Blood Pressure,Non-Vegetarian,American,Tangy
+U147,19,Female,31.3,Iron Deficiency,Keto,Mexican,Savory
+U148,40,Other,26.5,Vitamin D Deficiency,Vegan,Italian,Spicy
+U149,38,Other,21.7,Iron Deficiency,Vegetarian,Mediterranean,Tangy
+U150,40,Other,35.0,Diabetes,Vegetarian,Italian,Sweet
+U151,35,Other,31.9,None,Non-Vegetarian,Mexican,Savory
+U152,40,Male,21.0,High Blood Pressure,Vegan,American,Mild
+U153,55,Male,30.0,Iron Deficiency,Paleo,Mexican,Sweet
+U154,54,Male,32.2,Vitamin D Deficiency,Paleo,Asian,Sweet
+U155,49,Male,19.5,Diabetes,Paleo,Italian,Spicy
+U156,51,Female,18.0,High Blood Pressure,Non-Vegetarian,Italian,Mild
+U157,63,Male,33.6,Iron Deficiency,Vegetarian,Indian,Sweet
+U158,55,Other,33.6,None,Paleo,Asian,Spicy
+U159,41,Other,34.0,Vitamin D Deficiency,Paleo,Indian,Mild
+U160,37,Female,20.3,Diabetes,Keto,American,Savory
+U161,59,Female,21.0,High Blood Pressure,Paleo,Asian,Sweet
+U162,60,Other,31.8,Vitamin D Deficiency,Vegan,American,Mild
+U163,26,Male,30.4,High Blood Pressure,Keto,Mexican,Spicy
+U164,29,Other,23.4,High Blood Pressure,Non-Vegetarian,American,Tangy
+U165,24,Female,20.4,None,Non-Vegetarian,Asian,Mild
+U166,28,Other,33.1,None,Vegan,Mediterranean,Spicy
+U167,34,Male,22.2,None,Vegan,Asian,Spicy
+U168,64,Male,18.8,Vitamin D Deficiency,Keto,Italian,Savory
+U169,49,Female,24.0,Vitamin D Deficiency,Vegetarian,Mediterranean,Tangy
+U170,59,Other,21.8,Vitamin D Deficiency,Vegetarian,Indian,Mild
+U171,19,Female,22.4,None,Vegetarian,Asian,Sweet
+U172,42,Male,30.4,High Blood Pressure,Vegetarian,Asian,Tangy
+U173,57,Female,30.0,Vitamin D Deficiency,Non-Vegetarian,Mexican,Savory
+U174,28,Male,19.7,Diabetes,Non-Vegetarian,Mediterranean,Tangy
+U175,64,Other,27.2,Iron Deficiency,Vegan,Italian,Spicy
+U176,21,Female,27.7,Vitamin D Deficiency,Non-Vegetarian,Indian,Mild
+U177,18,Female,19.5,High Blood Pressure,Keto,Italian,Spicy
+U178,19,Male,20.9,Iron Deficiency,Vegetarian,Mediterranean,Spicy
+U179,37,Female,26.0,Iron Deficiency,Vegetarian,American,Tangy
+U180,42,Male,24.3,Vitamin D Deficiency,Vegan,Italian,Savory
+U181,20,Female,25.5,Iron Deficiency,Non-Vegetarian,Asian,Tangy
+U182,21,Male,30.8,None,Vegetarian,American,Mild
+U183,52,Female,34.5,High Blood Pressure,Non-Vegetarian,Mexican,Spicy
+U184,42,Other,25.1,High Blood Pressure,Keto,Mexican,Sweet
+U185,48,Female,19.3,None,Paleo,Mexican,Tangy
+U186,54,Other,34.7,Diabetes,Vegetarian,Mediterranean,Sweet
+U187,28,Male,31.7,Diabetes,Vegetarian,Mediterranean,Spicy
+U188,61,Female,21.4,Diabetes,Paleo,Asian,Mild
+U189,64,Male,19.5,High Blood Pressure,Keto,Mexican,Mild
+U190,35,Other,25.8,None,Paleo,Mexican,Tangy
+U191,44,Male,25.0,Diabetes,Paleo,Mexican,Tangy
+U192,24,Male,27.6,None,Vegan,Mexican,Mild
+U193,44,Female,24.5,Vitamin D Deficiency,Paleo,Mexican,Savory
+U194,20,Male,22.7,Diabetes,Paleo,Mexican,Savory
+U195,20,Female,33.1,Iron Deficiency,Non-Vegetarian,Indian,Savory
+U196,35,Female,18.3,Iron Deficiency,Vegan,Asian,Savory
+U197,62,Other,19.7,Diabetes,Non-Vegetarian,Asian,Savory
+U198,38,Female,30.4,High Blood Pressure,Vegetarian,Italian,Savory
+U199,31,Female,30.6,High Blood Pressure,Vegan,Indian,Tangy
+U200,28,Male,23.3,High Blood Pressure,Keto,Italian,Tangy

@@ -1,0 +1,101 @@
+User_ID,Age,Gender,BMI,Health_Condition,Dietary_Restriction,Preferred_Cuisine,Taste_Preference
+U001,24,Male,32.3,Iron Deficiency,Nut-Free,American,Mild
+U002,62,Other,32.6,Heart Disease,High-Protein,Asian,Savory
+U003,68,Female,19.2,Vitamin D Deficiency,Low-Carb,Mexican,Salty
+U004,22,Female,33.8,Food Allergies,High-Protein,American,Bitter
+U005,22,Other,34.0,Digestive Issues,Keto,Italian,Tangy
+U006,69,Male,23.9,Obesity,Nut-Free,American,Bitter
+U007,68,Female,34.0,Digestive Issues,Keto,Italian,Sour
+U008,38,Female,32.4,Underweight,Vegan,Chinese,Spicy
+U009,22,Other,17.0,Food Allergies,Vegan,Mediterranean,Tangy
+U010,34,Female,29.7,Diabetes,Gluten-Free,Spanish,Tangy
+U011,32,Male,29.5,Food Allergies,Dairy-Free,American,Tangy
+U012,38,Female,23.8,Digestive Issues,Vegetarian,Asian,Sour
+U013,42,Other,32.8,Underweight,Keto,Spanish,Mild
+U014,26,Male,24.0,Digestive Issues,Keto,Thai,Sour
+U015,56,Male,28.9,Iron Deficiency,Non-Vegetarian,Thai,Umami
+U016,34,Male,29.2,Iron Deficiency,Nut-Free,French,Mild
+U017,20,Other,16.7,Underweight,Nut-Free,Italian,Sweet
+U018,65,Other,26.5,Food Allergies,Keto,Indian,Bitter
+U019,27,Male,27.4,High Blood Pressure,Vegetarian,Spanish,Bitter
+U020,45,Other,24.8,Vitamin D Deficiency,Paleo,Chinese,Savory
+U021,26,Other,16.8,Food Allergies,High-Protein,Asian,Bitter
+U022,42,Male,24.1,Underweight,Keto,Indian,Sour
+U023,51,Other,19.4,Obesity,Keto,Mexican,Sweet
+U024,70,Female,33.2,Obesity,Non-Vegetarian,American,Mild
+U025,39,Female,26.1,Food Allergies,Low-Carb,Chinese,Bitter
+U026,58,Male,25.7,Diabetes,Keto,Asian,Savory
+U027,33,Female,25.9,None,Nut-Free,French,Tangy
+U028,19,Female,16.3,Obesity,Non-Vegetarian,Mexican,Salty
+U029,24,Female,28.3,Iron Deficiency,Nut-Free,Thai,Tangy
+U030,57,Female,24.6,Underweight,Gluten-Free,Mediterranean,Sweet
+U031,56,Female,25.5,None,Vegetarian,French,Savory
+U032,48,Female,28.4,Obesity,Vegan,Asian,Sour
+U033,51,Male,16.5,High Blood Pressure,Dairy-Free,French,Salty
+U034,69,Other,21.3,High Cholesterol,Keto,Thai,Bitter
+U035,64,Female,34.1,Vitamin D Deficiency,Gluten-Free,Mediterranean,Umami
+U036,30,Male,23.0,Vitamin D Deficiency,Keto,Chinese,Umami
+U037,24,Other,27.5,Underweight,Paleo,Indian,Spicy
+U038,24,Male,19.6,None,Keto,American,Bitter
+U039,27,Female,24.3,Digestive Issues,Vegetarian,American,Herbal
+U040,53,Other,25.6,High Blood Pressure,Vegan,Asian,Herbal
+U041,51,Other,22.9,High Blood Pressure,Low-Carb,American,Spicy
+U042,28,Female,27.5,Vitamin D Deficiency,High-Protein,Mediterranean,Umami
+U043,22,Female,32.6,Obesity,Gluten-Free,Thai,Spicy
+U044,55,Other,26.0,Diabetes,High-Protein,Japanese,Savory
+U045,69,Other,21.7,None,Keto,French,Salty
+U046,42,Male,26.8,Underweight,Low-Carb,Mediterranean,Herbal
+U047,69,Male,23.6,None,Vegetarian,French,Umami
+U048,70,Other,26.1,Obesity,Nut-Free,Thai,Spicy
+U049,68,Male,33.4,Heart Disease,Vegan,Thai,Umami
+U050,45,Male,32.1,High Blood Pressure,Gluten-Free,Thai,Salty
+U051,50,Male,34.4,None,Dairy-Free,Thai,Sweet
+U052,22,Other,21.5,Digestive Issues,Gluten-Free,Asian,Salty
+U053,47,Female,18.0,High Cholesterol,Dairy-Free,Thai,Sour
+U054,58,Female,30.3,Obesity,Vegetarian,Indian,Sour
+U055,60,Female,17.2,None,Vegetarian,Japanese,Herbal
+U056,58,Female,18.7,High Cholesterol,Nut-Free,Mediterranean,Spicy
+U057,23,Male,24.4,Diabetes,Vegetarian,Mexican,Sour
+U058,45,Female,18.4,Digestive Issues,Low-Carb,American,Herbal
+U059,48,Female,22.0,Iron Deficiency,Keto,Spanish,Salty
+U060,24,Female,29.0,Food Allergies,Nut-Free,Japanese,Spicy
+U061,66,Other,21.3,None,Gluten-Free,French,Sour
+U062,23,Male,16.6,Vitamin D Deficiency,High-Protein,Mediterranean,Sour
+U063,31,Male,24.4,None,Gluten-Free,Spanish,Bitter
+U064,26,Other,33.3,High Cholesterol,Vegan,Mexican,Bitter
+U065,57,Male,16.1,Diabetes,Nut-Free,Italian,Sour
+U066,69,Female,21.0,Digestive Issues,Gluten-Free,French,Spicy
+U067,60,Other,26.1,Diabetes,Gluten-Free,French,Savory
+U068,51,Other,22.0,Food Allergies,Vegan,Asian,Bitter
+U069,54,Male,27.3,Underweight,High-Protein,American,Tangy
+U070,28,Female,32.9,High Blood Pressure,Nut-Free,Spanish,Spicy
+U071,31,Female,29.6,Iron Deficiency,High-Protein,French,Savory
+U072,66,Other,22.4,Food Allergies,Vegetarian,Thai,Sweet
+U073,36,Other,19.4,Vitamin D Deficiency,Low-Carb,Mediterranean,Sour
+U074,67,Other,32.7,Obesity,Keto,French,Savory
+U075,25,Male,32.4,Digestive Issues,Gluten-Free,Spanish,Salty
+U076,38,Other,23.5,Diabetes,Dairy-Free,Asian,Mild
+U077,42,Female,27.8,Diabetes,Paleo,Japanese,Sweet
+U078,47,Female,29.7,Obesity,Non-Vegetarian,French,Bitter
+U079,50,Female,32.6,Iron Deficiency,Vegan,Mediterranean,Salty
+U080,39,Other,19.5,Food Allergies,Paleo,French,Sour
+U081,51,Male,22.7,Vitamin D Deficiency,Non-Vegetarian,Mediterranean,Salty
+U082,69,Other,23.3,None,Paleo,Mediterranean,Salty
+U083,20,Other,30.9,Heart Disease,Low-Carb,American,Sour
+U084,62,Female,21.1,Diabetes,Gluten-Free,Italian,Sour
+U085,29,Other,26.2,Diabetes,Vegetarian,Indian,Tangy
+U086,51,Other,32.0,Obesity,Gluten-Free,Indian,Tangy
+U087,52,Male,30.6,Obesity,Non-Vegetarian,Thai,Savory
+U088,55,Male,29.6,Digestive Issues,Low-Carb,French,Sweet
+U089,44,Male,20.0,Digestive Issues,Vegetarian,Japanese,Sweet
+U090,62,Female,28.9,High Blood Pressure,Gluten-Free,Asian,Bitter
+U091,20,Other,30.7,Obesity,Low-Carb,Indian,Bitter
+U092,35,Other,31.3,None,High-Protein,Thai,Sour
+U093,66,Male,28.4,Heart Disease,Low-Carb,Mediterranean,Spicy
+U094,65,Other,32.6,Digestive Issues,Keto,Mexican,Herbal
+U095,62,Female,31.9,High Cholesterol,Vegan,Thai,Bitter
+U096,64,Other,30.8,Vitamin D Deficiency,Gluten-Free,French,Tangy
+U097,39,Male,34.4,Iron Deficiency,Nut-Free,French,Savory
+U098,20,Female,17.0,Food Allergies,Non-Vegetarian,Spanish,Bitter
+U099,48,Other,20.5,Obesity,Vegan,Asian,Umami
+U100,67,Male,32.1,Digestive Issues,Keto,Spanish,Mild

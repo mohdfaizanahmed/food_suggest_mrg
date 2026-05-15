@@ -1,0 +1,251 @@
+Recipe_ID,Recipe_Name,Cuisine,Recipe_Diet,Taste,Cooking_Time,Calories,Protein_g,Fat_g,Carbs_g,Fiber_g,Vitamin_C_mg,Iron_mg,Calcium_mg
+R001,Dal Makhani,Indian,Vegetarian,Savory,37,267,16.4,12.1,43.4,5.3,27.4,2.2,76.8
+R002,Palak Paneer,Indian,Vegetarian,Mild,25,291,15.2,15.9,20.4,4.9,19.8,2.2,67.2
+R003,Chana Masala,Indian,Vegetarian,Spicy,25,289,12.5,6.4,30.6,10.8,25.6,6.9,31.1
+R004,Aloo Gobi,Indian,Vegetarian,Mild,31,237,6.3,5.2,31.0,5.5,8.6,4.3,91.0
+R005,Rajma Chawal,Indian,Vegetarian,Savory,55,379,19.3,5.8,52.9,8.4,37.3,2.5,79.8
+R006,Paneer Butter Masala,Indian,Vegetarian,Mild,32,390,16.6,16.2,24.4,4.1,28.1,6.6,197.5
+R007,Kadhi Pakora,Indian,Vegetarian,Tangy,32,297,11.8,13.2,27.4,4.4,18.0,3.3,75.4
+R008,Matar Paneer,Indian,Vegetarian,Mild,32,327,15.9,16.6,18.6,7.3,14.4,7.6,147.0
+R009,Veg Biryani,Indian,Vegetarian,Spicy,58,432,14.3,9.3,62.5,7.5,33.2,4.4,41.3
+R010,Baingan Bharta,Indian,Vegetarian,Savory,38,224,5.7,9.5,23.6,9.0,27.5,2.9,53.7
+R011,Pav Bhaji,Indian,Vegetarian,Spicy,33,319,13.8,16.8,51.3,5.3,9.8,5.0,158.5
+R012,Dum Aloo,Indian,Vegetarian,Spicy,35,287,8.6,12.1,34.4,5.1,18.4,8.0,119.9
+R013,Khichdi,Indian,Vegetarian,Mild,34,220,15.7,7.5,41.7,7.0,27.4,2.7,103.9
+R014,Poha,Indian,Vegetarian,Mild,19,244,7.4,4.6,44.9,4.6,11.3,7.5,178.0
+R015,Methi Thepla,Indian,Vegetarian,Savory,30,222,6.1,9.6,38.5,7.3,32.3,5.2,30.1
+R016,Butter Chicken,Indian,Non-Vegetarian,Mild,27,341,35.3,20.5,19.8,3.6,7.5,1.2,89.0
+R017,Chicken Biryani,Indian,Non-Vegetarian,Spicy,55,487,36.3,16.9,67.4,5.8,4.3,3.6,95.2
+R018,Mutton Rogan Josh,Indian,Non-Vegetarian,Spicy,62,475,33.3,23.2,11.0,2.7,15.6,3.8,74.2
+R019,Fish Curry,Indian,Non-Vegetarian,Spicy,32,260,26.7,15.0,11.8,4.7,8.1,3.4,30.7
+R020,Prawn Masala,Indian,Non-Vegetarian,Spicy,40,267,29.4,14.3,17.1,3.2,17.5,1.3,31.4
+R021,Chicken Tikka Masala,Indian,Non-Vegetarian,Spicy,33,324,34.6,14.8,17.3,4.6,6.4,2.9,46.6
+R022,Lamb Korma,Indian,Non-Vegetarian,Mild,41,483,36.7,30.0,12.9,2.6,3.0,3.6,68.2
+R023,Chicken Saag,Indian,Non-Vegetarian,Savory,44,311,36.7,14.6,16.5,6.4,11.7,1.6,26.5
+R024,Egg Curry,Indian,Non-Vegetarian,Spicy,20,251,19.6,20.8,13.3,3.5,3.8,3.6,58.7
+R025,Keema Pav,Indian,Non-Vegetarian,Spicy,37,380,35.9,20.1,42.2,4.4,5.8,2.6,15.3
+R026,Hyderabadi Chicken Biryani,Indian,Non-Vegetarian,Spicy,72,564,33.9,16.4,69.5,4.7,9.6,4.8,99.6
+R027,Fish Fry,Indian,Non-Vegetarian,Savory,29,301,31.0,18.8,11.3,3.9,11.8,4.0,15.1
+R028,Vegetable Curry,Indian,Vegan,Spicy,27,211,6.7,9.5,25.0,7.4,7.8,3.1,63.6
+R029,Tofu Tikka,Indian,Vegan,Spicy,30,213,15.2,12.3,11.9,3.2,26.7,4.5,62.5
+R030,Lentil Dal,Indian,Vegan,Savory,27,201,14.7,7.0,40.0,7.4,28.5,3.8,38.5
+R031,Aloo Palak,Indian,Vegan,Savory,22,181,6.8,5.8,30.3,7.8,12.5,3.6,94.0
+R032,Chickpea Curry,Indian,Vegan,Spicy,20,285,14.9,5.5,36.0,11.7,26.4,7.9,68.9
+R033,Mixed Veg Sabzi,Indian,Vegan,Mild,19,154,5.1,4.8,21.4,6.7,9.7,2.7,19.6
+R034,Masoor Dal,Indian,Vegan,Savory,21,191,14.8,5.3,26.5,7.7,34.9,5.0,32.6
+R035,Mushroom Matar,Indian,Vegan,Savory,27,230,10.2,7.8,19.1,7.8,9.6,7.9,24.5
+R036,Veg Korma,Indian,Vegan,Mild,36,274,10.3,10.6,22.4,5.5,29.2,2.9,13.2
+R037,Chicken Keto Curry,Indian,Keto,Spicy,36,346,40.2,26.7,6.8,2.1,18.8,4.9,13.6
+R038,Keto Egg Bhurji,Indian,Keto,Savory,13,280,23.8,28.1,6.5,1.0,17.7,4.9,77.5
+R039,Paneer Keto Bowl,Indian,Keto,Mild,25,374,24.5,24.7,7.1,1.2,15.3,2.3,93.8
+R040,Keto Butter Chicken,Indian,Keto,Mild,39,384,35.7,30.0,6.1,1.0,17.7,4.4,30.0
+R041,Tandoori Prawns Keto,Indian,Keto,Spicy,28,264,32.4,13.2,6.9,2.1,5.5,2.3,87.8
+R042,Tandoori Chicken,Indian,Paleo,Spicy,35,354,43.6,12.1,4.4,1.9,37.9,1.5,97.3
+R043,Chicken Seekh Kebab,Indian,Paleo,Spicy,23,309,38.8,13.5,3.2,1.9,30.5,2.3,64.6
+R044,Fish Tikka,Indian,Paleo,Spicy,30,245,31.6,10.4,4.7,1.7,23.2,4.2,71.8
+R045,Lamb Kebab,Indian,Paleo,Savory,34,364,31.7,19.3,4.6,1.6,16.0,4.4,74.8
+R046,Grilled Chicken Tikka,Indian,Paleo,Spicy,25,318,36.8,10.8,6.3,1.6,9.5,2.7,94.6
+R047,Margherita Pizza,Italian,Vegetarian,Savory,30,439,16.7,14.1,55.2,5.4,12.4,6.7,133.1
+R048,Pasta Primavera,Italian,Vegetarian,Mild,29,345,16.0,13.7,46.2,7.8,38.6,6.4,142.0
+R049,Risotto ai Funghi,Italian,Vegetarian,Savory,34,323,10.3,17.9,59.9,4.3,13.2,3.9,167.1
+R050,Caprese Salad,Italian,Vegetarian,Mild,16,223,12.4,12.9,12.1,4.7,20.9,7.3,127.9
+R051,Vegetable Lasagne,Italian,Vegetarian,Savory,57,385,22.4,16.2,51.0,6.2,35.1,7.3,162.3
+R052,Penne Arrabbiata,Italian,Vegetarian,Spicy,27,365,13.2,9.4,53.8,5.3,37.1,2.7,52.7
+R053,Gnocchi al Pesto,Italian,Vegetarian,Savory,38,426,15.4,17.6,49.9,5.6,20.5,6.9,181.6
+R054,Eggplant Parmigiana,Italian,Vegetarian,Savory,48,378,16.7,17.9,30.9,6.8,20.8,6.5,172.8
+R055,Cacio e Pepe,Italian,Vegetarian,Savory,28,350,14.8,15.9,58.3,4.1,30.0,3.4,87.1
+R056,Bruschetta al Pomodoro,Italian,Vegetarian,Tangy,16,167,6.8,8.5,33.0,3.8,7.2,4.4,122.2
+R057,Ricotta Stuffed Shells,Italian,Vegetarian,Mild,47,381,18.0,16.8,47.0,5.6,29.3,7.1,160.2
+R058,Focaccia Bread,Italian,Vegetarian,Savory,47,317,13.4,10.9,41.3,3.5,38.4,4.5,157.1
+R059,Chicken Parmesan,Italian,Non-Vegetarian,Savory,35,499,47.0,23.8,30.4,4.7,9.0,3.7,81.8
+R060,Spaghetti Bolognese,Italian,Non-Vegetarian,Savory,43,434,38.4,15.5,51.6,4.0,12.7,3.7,17.6
+R061,Grilled Salmon Pasta,Italian,Non-Vegetarian,Mild,33,476,43.4,15.4,50.0,3.4,10.2,2.4,89.2
+R062,Chicken Piccata,Italian,Non-Vegetarian,Tangy,32,403,36.8,21.7,14.3,1.1,15.5,1.2,95.7
+R063,Shrimp Scampi,Italian,Non-Vegetarian,Savory,23,336,33.7,14.9,39.4,2.4,6.5,4.4,65.9
+R064,Osso Buco,Italian,Non-Vegetarian,Savory,90,429,43.3,19.6,14.5,2.7,6.6,2.5,64.5
+R065,Seafood Pasta,Italian,Non-Vegetarian,Savory,37,410,39.3,13.6,49.7,4.5,18.7,3.3,91.7
+R066,Chicken Marsala,Italian,Non-Vegetarian,Savory,28,441,47.8,20.3,18.8,2.3,6.4,3.8,37.1
+R067,Beef Meatball Pasta,Italian,Non-Vegetarian,Savory,48,545,31.3,23.7,56.9,5.5,8.7,3.0,40.7
+R068,Pancetta Carbonara,Italian,Non-Vegetarian,Savory,30,469,31.4,29.2,57.3,3.4,14.7,2.7,76.0
+R069,Grilled Swordfish,Italian,Non-Vegetarian,Mild,23,291,37.3,13.6,5.0,2.7,16.9,3.4,39.0
+R070,Veal Saltimbocca,Italian,Non-Vegetarian,Savory,25,343,41.9,16.8,5.6,1.6,14.0,2.3,54.5
+R071,Pasta Pomodoro,Italian,Vegan,Tangy,28,304,10.5,8.6,55.9,5.3,25.9,7.3,60.0
+R072,Pasta Aglio e Olio,Italian,Vegan,Savory,15,311,11.8,15.2,50.9,5.0,29.2,5.9,54.2
+R073,Minestrone Soup,Italian,Vegan,Savory,40,225,12.2,4.1,31.0,6.6,17.9,5.3,40.9
+R074,Vegan Pesto Pasta,Italian,Vegan,Savory,22,344,11.3,17.9,54.7,5.9,11.7,2.7,58.2
+R075,Roasted Veg Pasta,Italian,Vegan,Mild,36,317,9.4,9.1,44.2,6.1,23.4,3.7,19.0
+R076,Vegan Risotto,Italian,Vegan,Savory,34,381,12.2,10.9,63.3,3.7,14.6,7.8,59.8
+R077,Bruschetta Classica,Italian,Vegan,Mild,10,172,7.8,5.9,30.2,3.2,21.4,4.6,26.6
+R078,Farinata,Italian,Vegan,Savory,24,272,13.7,6.5,31.0,6.2,7.6,5.8,14.8
+R079,Zucchini Noodles Marinara,Italian,Keto,Tangy,28,228,12.7,10.7,13.2,6.0,9.5,3.4,65.7
+R080,Keto Chicken Alfredo,Italian,Keto,Savory,28,477,38.5,26.1,8.0,1.3,7.5,3.5,64.9
+R081,Keto Meatballs,Italian,Keto,Savory,39,428,37.1,24.9,4.9,2.4,5.1,1.3,10.2
+R082,Grilled Chicken Pesto Keto,Italian,Keto,Savory,28,420,45.5,25.9,6.2,1.4,14.7,2.8,71.9
+R083,Caprese Avocado Bowl,Italian,Keto,Mild,14,278,10.4,23.7,7.8,5.2,4.1,1.9,23.4
+R084,Chicken Cacciatore,Italian,Paleo,Savory,49,389,36.8,14.2,11.2,3.3,24.9,2.2,21.2
+R085,Grilled Sea Bass Italian,Italian,Paleo,Mild,29,272,30.3,9.8,4.7,2.7,25.9,4.6,76.1
+R086,Paleo Meatballs,Italian,Paleo,Savory,33,373,28.5,22.1,5.9,2.3,25.5,1.1,78.8
+R087,Herb Grilled Chicken,Italian,Paleo,Mild,35,271,37.6,13.3,3.3,1.2,37.1,1.7,62.7
+R088,Vegetable Stir Fry,Asian,Vegetarian,Spicy,25,211,10.9,9.3,26.5,5.3,10.6,4.5,114.2
+R089,Veggie Fried Rice,Asian,Vegetarian,Savory,28,280,11.9,11.3,50.4,3.6,16.3,7.8,98.7
+R090,Spring Rolls,Asian,Vegetarian,Mild,21,226,7.6,8.8,31.5,5.6,17.7,6.5,136.3
+R091,Tofu Ramen,Asian,Vegetarian,Savory,32,370,15.3,11.3,44.6,3.3,22.0,2.2,137.1
+R092,Miso Soup,Asian,Vegetarian,Savory,11,99,9.0,5.9,14.1,2.8,39.7,7.5,108.4
+R093,Vegetable Dumplings,Asian,Vegetarian,Savory,29,249,9.1,9.6,39.0,3.4,34.2,7.9,71.4
+R094,Mapo Tofu,Asian,Vegetarian,Spicy,25,340,16.1,20.6,16.3,2.9,7.4,6.6,175.3
+R095,Vegetarian Pad Thai,Asian,Vegetarian,Sweet,22,357,11.2,10.1,54.6,4.6,25.5,8.0,113.2
+R096,Bibimbap Veg,Asian,Vegetarian,Savory,32,393,12.3,15.1,54.9,5.3,20.9,3.9,62.1
+R097,Japchae,Asian,Vegetarian,Sweet,29,343,11.8,6.8,59.6,4.0,21.6,7.5,94.8
+R098,Agedashi Tofu,Asian,Vegetarian,Savory,27,201,14.3,12.5,24.5,2.5,8.5,7.1,47.0
+R099,Chili Paneer,Asian,Vegetarian,Spicy,26,363,14.6,14.6,28.7,3.6,21.4,7.8,87.6
+R100,Chicken Fried Rice,Asian,Non-Vegetarian,Savory,35,471,31.4,16.9,50.8,4.1,19.2,3.5,89.9
+R101,Beef Teriyaki,Asian,Non-Vegetarian,Sweet,23,437,37.6,19.0,33.3,3.1,7.2,1.9,18.1
+R102,Shrimp Pad Thai,Asian,Non-Vegetarian,Sweet,29,365,27.7,11.2,48.9,3.7,18.3,1.2,81.7
+R103,Kung Pao Chicken,Asian,Non-Vegetarian,Spicy,32,399,36.2,18.0,29.0,2.7,16.3,1.7,17.1
+R104,Char Siu Pork,Asian,Non-Vegetarian,Sweet,54,475,31.5,18.4,30.9,3.8,13.5,2.8,70.0
+R105,Salmon Teriyaki,Asian,Non-Vegetarian,Sweet,24,378,42.1,15.6,25.8,2.4,19.8,2.2,96.6
+R106,General Tso Chicken,Asian,Non-Vegetarian,Spicy,29,362,39.7,19.3,35.3,2.7,6.3,3.3,61.7
+R107,Beef Ramen,Asian,Non-Vegetarian,Savory,49,475,34.0,21.2,45.7,4.4,14.3,4.0,14.4
+R108,Thai Green Curry Chicken,Asian,Non-Vegetarian,Spicy,33,426,37.1,25.7,26.8,2.4,12.9,2.4,67.3
+R109,Vietnamese Pho,Asian,Non-Vegetarian,Mild,54,304,31.8,12.4,33.1,2.9,3.7,3.5,13.5
+R110,Korean BBQ Beef,Asian,Non-Vegetarian,Savory,47,472,41.7,20.2,33.0,3.5,15.5,1.7,21.9
+R111,Duck Noodles,Asian,Non-Vegetarian,Savory,44,486,37.7,22.7,43.0,4.3,6.6,4.3,53.4
+R112,Tofu Stir Fry,Asian,Vegan,Spicy,21,271,14.9,12.7,18.1,4.6,12.9,6.1,70.7
+R113,Vegetable Sushi Roll,Asian,Vegan,Mild,48,268,10.9,6.8,43.3,2.7,20.9,6.0,70.5
+R114,Edamame Bowl,Asian,Vegan,Mild,19,208,17.9,9.8,20.6,7.8,5.9,7.3,60.5
+R115,Miso Tofu Soup,Asian,Vegan,Savory,15,178,16.0,4.5,13.9,4.6,27.7,2.7,14.1
+R116,Vegan Ramen,Asian,Vegan,Savory,38,355,15.9,6.9,45.0,3.3,18.6,4.2,95.4
+R117,Vegan Pad Thai,Asian,Vegan,Sweet,20,388,12.2,10.7,59.4,5.6,22.1,4.4,95.6
+R118,Buddhist Stir Fry,Asian,Vegan,Savory,25,225,8.4,7.7,31.7,7.8,8.5,6.1,59.0
+R119,Mapo Tofu Vegan,Asian,Vegan,Spicy,25,276,17.8,10.4,16.7,5.0,33.8,2.6,29.1
+R120,Cauliflower Fried Rice,Asian,Keto,Savory,28,226,18.7,18.5,9.4,5.3,16.2,1.8,84.7
+R121,Keto Teriyaki Chicken,Asian,Keto,Sweet,24,316,38.5,20.4,5.5,2.7,16.2,3.4,35.0
+R122,Keto Beef and Broccoli,Asian,Keto,Savory,29,361,30.2,20.7,8.8,4.3,4.4,2.4,81.0
+R123,Keto Shrimp Stir Fry,Asian,Keto,Spicy,20,305,31.9,15.6,7.3,3.8,4.0,1.3,50.3
+R124,Egg Foo Young Keto,Asian,Keto,Savory,19,318,24.4,18.3,8.0,2.7,15.1,4.6,69.3
+R125,Chicken Lettuce Wraps,Asian,Paleo,Savory,27,249,38.8,12.6,6.9,2.4,19.9,1.4,74.1
+R126,Paleo Beef and Broccoli,Asian,Paleo,Savory,32,396,36.4,19.6,11.6,3.3,26.9,3.3,74.1
+R127,Lemongrass Grilled Chicken,Asian,Paleo,Savory,31,315,35.4,11.8,5.4,1.9,29.6,4.4,68.6
+R128,Thai Basil Ground Meat,Asian,Paleo,Spicy,25,312,29.7,15.2,11.5,1.2,19.6,1.4,48.4
+R129,Coconut Curry Chicken,Asian,Paleo,Spicy,36,423,29.6,18.6,13.7,3.7,34.1,1.4,18.7
+R130,Greek Salad,Mediterranean,Vegetarian,Tangy,16,186,15.8,18.8,10.1,4.7,28.5,4.5,178.5
+R131,Falafel Wrap,Mediterranean,Vegetarian,Savory,23,344,17.1,12.2,50.7,8.9,12.4,5.9,68.1
+R132,Hummus Bowl,Mediterranean,Vegetarian,Mild,19,278,14.0,14.5,30.1,7.6,33.3,7.1,195.7
+R133,Spanakopita,Mediterranean,Vegetarian,Savory,49,397,14.0,14.0,38.4,6.3,29.3,2.2,76.5
+R134,Stuffed Bell Peppers,Mediterranean,Vegetarian,Savory,40,251,14.5,9.3,37.0,6.4,19.0,2.9,137.6
+R135,Shakshuka,Mediterranean,Vegetarian,Spicy,22,206,12.9,18.0,14.4,3.2,18.0,6.3,162.1
+R136,Lentil Soup,Mediterranean,Vegetarian,Mild,43,234,13.3,6.0,34.1,7.6,20.5,4.5,133.2
+R137,Fattoush Salad,Mediterranean,Vegetarian,Tangy,14,165,7.3,13.9,20.5,4.8,28.7,5.6,119.6
+R138,Tabbouleh,Mediterranean,Vegetarian,Tangy,19,181,4.5,9.0,24.3,4.5,38.1,6.6,159.9
+R139,Halloumi Salad,Mediterranean,Vegetarian,Savory,25,285,14.4,22.9,10.3,3.1,23.6,3.4,125.0
+R140,Cheese Borek,Mediterranean,Vegetarian,Savory,48,331,16.3,17.3,33.4,2.1,37.2,7.2,127.9
+R141,Moussaka Veg,Mediterranean,Vegetarian,Savory,72,397,12.2,15.5,29.3,6.7,16.4,6.8,135.1
+R142,Grilled Sea Bass,Mediterranean,Non-Vegetarian,Mild,25,268,36.0,11.3,4.0,1.2,9.2,1.3,88.3
+R143,Lamb Kebabs,Mediterranean,Non-Vegetarian,Savory,24,330,29.2,18.0,4.7,1.3,11.2,4.6,41.4
+R144,Chicken Souvlaki,Mediterranean,Non-Vegetarian,Savory,35,339,39.1,16.1,8.7,2.8,15.7,1.3,95.6
+R145,Lamb Moussaka,Mediterranean,Non-Vegetarian,Savory,87,460,27.8,18.7,29.3,3.9,12.2,3.5,66.2
+R146,Shrimp Saganaki,Mediterranean,Non-Vegetarian,Spicy,29,339,31.4,14.5,18.7,1.2,6.9,1.2,55.7
+R147,Grilled Octopus,Mediterranean,Non-Vegetarian,Savory,46,269,30.6,10.4,7.2,2.8,17.6,4.4,65.4
+R148,Beef Shawarma,Mediterranean,Non-Vegetarian,Savory,30,437,33.7,17.2,24.7,2.3,10.1,4.2,68.7
+R149,Chicken Shawarma,Mediterranean,Non-Vegetarian,Spicy,25,325,31.0,15.5,29.3,3.6,18.2,2.4,74.3
+R150,Grilled Branzino,Mediterranean,Non-Vegetarian,Mild,26,319,34.1,12.8,5.2,2.3,4.9,2.5,35.5
+R151,Lamb Chops,Mediterranean,Non-Vegetarian,Savory,29,372,38.7,24.6,5.6,2.7,3.2,1.4,71.1
+R152,Fish Tacos Med,Mediterranean,Non-Vegetarian,Spicy,31,339,33.7,17.6,28.7,3.8,8.0,3.3,22.7
+R153,Vegan Tabbouleh,Mediterranean,Vegan,Tangy,20,156,6.7,9.1,27.4,6.7,37.8,3.9,43.9
+R154,Roasted Veg Mezze,Mediterranean,Vegan,Mild,36,162,6.8,7.1,24.1,8.8,23.4,5.9,48.1
+R155,Lemon Lentil Soup,Mediterranean,Vegan,Tangy,27,217,15.1,3.4,35.3,10.2,22.0,3.4,22.4
+R156,Vegan Falafel Bowl,Mediterranean,Vegan,Savory,24,356,12.3,9.0,46.0,9.9,35.9,2.2,40.3
+R157,Stuffed Grape Leaves,Mediterranean,Vegan,Tangy,43,246,10.1,7.4,33.3,5.1,33.3,3.0,49.4
+R158,Roasted Eggplant Dip,Mediterranean,Vegan,Savory,29,200,7.6,9.2,22.8,6.3,31.2,4.7,58.1
+R159,Hummus Pita Bowl,Mediterranean,Vegan,Mild,18,287,10.5,9.0,34.4,7.4,20.4,6.6,80.0
+R160,Keto Lamb Chops,Mediterranean,Keto,Savory,31,406,38.5,31.2,2.5,1.2,17.7,1.2,53.3
+R161,Mediterranean Egg Bake,Mediterranean,Keto,Savory,26,271,27.5,20.2,5.8,3.0,4.9,2.8,56.2
+R162,Keto Greek Salad,Mediterranean,Keto,Tangy,13,249,16.0,19.0,6.2,5.8,2.5,1.2,55.2
+R163,Grilled Chicken Tzatziki,Mediterranean,Keto,Mild,24,284,35.4,16.6,6.8,1.3,17.1,3.6,81.2
+R164,Keto Stuffed Peppers,Mediterranean,Keto,Savory,42,302,26.6,26.3,11.3,5.2,14.7,2.8,10.5
+R165,Paleo Chicken Souvlaki,Mediterranean,Paleo,Savory,29,275,30.6,11.4,10.8,1.9,23.5,1.4,35.9
+R166,Mediterranean Beef Bowl,Mediterranean,Paleo,Savory,20,400,34.2,15.9,11.1,3.3,8.9,4.6,63.7
+R167,Paleo Lamb Kebabs,Mediterranean,Paleo,Savory,22,367,39.7,14.5,6.1,2.0,26.5,2.0,47.5
+R168,Grilled Fish Med Paleo,Mediterranean,Paleo,Mild,27,225,37.6,13.8,3.0,1.0,39.6,3.2,45.1
+R169,Bean Tacos,Mexican,Vegetarian,Spicy,25,293,16.6,12.4,44.7,8.3,32.6,4.1,154.6
+R170,Veggie Burrito,Mexican,Vegetarian,Savory,25,419,17.9,12.9,56.6,7.7,24.1,6.9,59.8
+R171,Cheese Quesadilla,Mexican,Vegetarian,Savory,13,325,22.3,23.1,39.8,2.9,30.1,7.7,36.3
+R172,Guacamole Bowl,Mexican,Vegetarian,Mild,10,296,6.6,18.3,26.6,6.2,18.9,6.9,110.5
+R173,Cheese Enchiladas,Mexican,Vegetarian,Spicy,38,462,21.9,26.9,40.6,5.9,28.0,3.6,165.9
+R174,Mexican Corn Salad,Mexican,Vegetarian,Sweet,18,234,10.8,12.4,30.9,6.4,22.4,5.0,187.1
+R175,Bean Nachos,Mexican,Vegetarian,Spicy,16,463,18.0,21.1,53.2,8.1,33.8,5.3,84.6
+R176,Veggie Burrito Bowl,Mexican,Vegetarian,Savory,20,398,18.0,9.6,61.7,11.7,29.1,4.1,37.2
+R177,Cheese Tamales,Mexican,Vegetarian,Savory,70,415,16.1,21.6,43.9,6.4,7.6,5.8,91.8
+R178,Papas con Rajas,Mexican,Vegetarian,Mild,36,286,8.3,13.4,43.3,6.7,32.3,2.2,41.4
+R179,Chiles Rellenos,Mexican,Vegetarian,Spicy,48,297,15.2,19.2,33.8,5.0,38.2,4.2,159.7
+R180,Chicken Tacos,Mexican,Non-Vegetarian,Spicy,27,436,34.7,12.1,31.1,3.3,4.0,3.9,54.9
+R181,Beef Burrito,Mexican,Non-Vegetarian,Savory,30,471,31.5,22.8,54.3,7.6,19.9,2.1,92.5
+R182,Carnitas,Mexican,Non-Vegetarian,Savory,117,461,38.0,27.1,14.4,1.6,10.0,1.4,71.4
+R183,Shrimp Fajitas,Mexican,Non-Vegetarian,Spicy,30,322,35.5,14.1,25.5,3.6,7.4,1.6,73.9
+R184,Chicken Enchiladas,Mexican,Non-Vegetarian,Spicy,47,474,35.6,23.9,33.6,5.7,4.5,4.2,12.4
+R185,Al Pastor Tacos,Mexican,Non-Vegetarian,Spicy,40,387,30.9,17.3,32.9,2.4,3.2,2.6,74.5
+R186,Carne Asada,Mexican,Non-Vegetarian,Savory,31,356,44.5,20.2,6.6,1.4,7.7,1.3,51.9
+R187,Fish Tacos,Mexican,Non-Vegetarian,Mild,16,406,25.2,11.2,30.0,3.0,19.4,2.7,92.0
+R188,Chicken Quesadilla,Mexican,Non-Vegetarian,Savory,19,468,28.9,17.6,41.5,2.8,14.8,2.4,94.7
+R189,Birria Tacos,Mexican,Non-Vegetarian,Spicy,80,423,37.1,20.6,28.1,3.9,13.3,3.5,18.4
+R190,Chicken Fajitas,Mexican,Non-Vegetarian,Savory,20,425,40.4,10.6,33.4,5.3,18.2,2.4,93.2
+R191,Beef Tostadas,Mexican,Non-Vegetarian,Savory,20,423,38.7,20.4,35.7,3.9,6.8,1.8,61.5
+R192,Black Bean Taco Bowl,Mexican,Vegan,Spicy,22,289,16.1,6.9,47.8,10.8,13.6,6.8,46.5
+R193,Veggie Fajita Bowl,Mexican,Vegan,Savory,20,353,13.9,8.1,43.6,8.0,16.9,2.9,87.5
+R194,Mexican Avocado Toast,Mexican,Vegan,Mild,11,254,6.8,15.1,22.5,7.8,23.0,2.6,31.8
+R195,Salsa Bowl,Mexican,Vegan,Spicy,12,221,8.7,7.6,30.3,5.6,35.2,4.5,96.6
+R196,Vegan Burrito,Mexican,Vegan,Savory,22,322,10.5,10.4,56.4,9.4,39.9,4.8,89.1
+R197,Roasted Veggie Tacos,Mexican,Vegan,Mild,35,276,10.2,13.1,39.2,8.5,25.4,2.3,35.3
+R198,Mushroom Tacos,Mexican,Vegan,Savory,21,226,9.4,7.2,36.6,4.3,30.5,6.6,42.9
+R199,Keto Beef Taco Bowl,Mexican,Keto,Spicy,24,427,37.3,23.3,5.5,3.1,11.1,4.1,35.2
+R200,Keto Chicken Fajita Bowl,Mexican,Keto,Savory,17,325,39.2,17.2,6.2,2.1,19.8,3.2,42.9
+R201,Cauliflower Burrito Bowl,Mexican,Keto,Savory,29,357,32.9,15.1,13.6,4.0,14.8,4.2,56.7
+R202,Keto Carnitas Bowl,Mexican,Keto,Savory,30,489,39.9,27.3,6.8,1.6,9.1,3.5,85.8
+R203,Keto Lettuce Tacos,Mexican,Keto,Spicy,21,334,29.7,21.2,7.5,3.9,16.7,2.5,70.6
+R204,Chicken Taco Lettuce Wrap,Mexican,Paleo,Spicy,24,333,30.7,10.4,8.9,3.6,25.9,2.1,69.0
+R205,Paleo Beef Fajita Bowl,Mexican,Paleo,Savory,27,324,36.9,19.6,9.1,3.3,30.2,4.1,44.2
+R206,Grilled Mexican Chicken,Mexican,Paleo,Savory,35,354,38.7,13.6,6.1,2.1,19.7,2.7,28.4
+R207,Paleo Carne Asada,Mexican,Paleo,Savory,25,378,42.9,16.7,5.4,2.5,39.9,2.9,43.9
+R208,Mac and Cheese,American,Vegetarian,Savory,35,429,23.7,18.2,52.2,4.8,30.2,5.9,147.9
+R209,Veggie Burger,American,Vegetarian,Savory,22,360,19.8,18.5,49.2,7.9,39.4,6.6,149.8
+R210,Grilled Cheese Sandwich,American,Vegetarian,Savory,16,424,16.1,25.7,37.8,2.1,15.1,5.4,122.3
+R211,Caesar Salad,American,Vegetarian,Savory,20,232,14.5,15.7,20.6,3.8,38.4,2.5,187.1
+R212,Vegetarian Chili,American,Vegetarian,Spicy,48,290,15.9,10.0,43.4,11.8,24.7,3.6,48.6
+R213,Avocado Toast,American,Vegetarian,Mild,11,307,11.6,14.0,31.5,8.7,6.8,4.5,152.0
+R214,Garden Salad,American,Vegetarian,Mild,17,145,7.0,7.7,18.3,4.2,19.2,7.6,179.3
+R215,Cheese Pizza,American,Vegetarian,Savory,21,384,19.3,18.7,59.1,2.1,31.9,5.9,69.5
+R216,Loaded Baked Potato,American,Vegetarian,Savory,59,349,12.1,18.5,49.5,8.9,34.3,6.7,61.7
+R217,French Onion Soup,American,Vegetarian,Savory,55,393,21.5,18.8,33.6,3.6,15.0,7.9,122.4
+R218,Veggie Wrap,American,Vegetarian,Mild,14,371,11.1,12.4,51.1,6.3,8.9,3.0,108.0
+R219,Caprese Sandwich,American,Vegetarian,Mild,16,334,15.1,12.7,42.0,2.6,31.5,3.1,175.5
+R220,BBQ Chicken,American,Non-Vegetarian,Sweet,38,438,38.8,18.0,29.4,1.6,4.5,2.3,32.3
+R221,Classic Beef Burger,American,Non-Vegetarian,Savory,22,435,38.0,26.7,37.9,4.1,15.0,1.0,68.8
+R222,Grilled Ribeye Steak,American,Non-Vegetarian,Savory,23,475,45.1,24.2,5.8,2.0,18.6,4.6,79.3
+R223,Chicken Wings,American,Non-Vegetarian,Spicy,40,497,41.6,30.3,10.6,2.4,10.2,5.0,43.6
+R224,Turkey Club Sandwich,American,Non-Vegetarian,Savory,18,432,28.9,18.5,30.7,3.6,12.7,4.1,57.3
+R225,Pulled Pork Sandwich,American,Non-Vegetarian,Sweet,100,533,33.3,21.4,48.0,3.5,11.1,3.3,23.5
+R226,Chicken Caesar Wrap,American,Non-Vegetarian,Savory,12,405,37.0,18.5,30.7,4.0,18.2,2.8,15.0
+R227,Fish and Chips,American,Non-Vegetarian,Savory,25,475,34.9,20.5,46.8,2.2,7.5,1.1,32.9
+R228,BLT Sandwich,American,Non-Vegetarian,Savory,17,324,22.9,17.4,31.6,3.9,19.9,4.7,16.2
+R229,Shrimp Po Boy,American,Non-Vegetarian,Spicy,26,474,32.7,23.3,43.3,4.0,15.1,4.9,43.7
+R230,Chicken Pot Pie,American,Non-Vegetarian,Savory,61,450,28.1,27.4,45.4,4.2,13.9,3.2,68.8
+R231,Lobster Bisque,American,Non-Vegetarian,Savory,39,379,26.7,20.4,27.3,2.6,6.0,1.0,12.0
+R232,Vegan Burger,American,Vegan,Savory,16,304,24.5,15.4,46.7,8.5,13.7,4.1,34.8
+R233,Acai Bowl,American,Vegan,Sweet,10,337,9.6,15.6,48.7,9.7,5.5,3.2,19.1
+R234,Vegan Mac,American,Vegan,Savory,26,357,13.0,14.3,65.4,5.2,19.1,3.4,29.6
+R235,Lentil Chili Bowl,American,Vegan,Spicy,40,290,16.4,4.7,47.2,9.3,16.2,5.6,70.5
+R236,Tofu Scramble,American,Vegan,Savory,12,300,19.4,14.4,10.4,4.0,15.5,2.4,95.4
+R237,Vegan Buffalo Wings,American,Vegan,Spicy,38,292,13.2,13.0,31.1,5.9,27.5,4.3,57.2
+R238,Smoothie Bowl,American,Vegan,Sweet,17,417,8.3,13.3,57.8,8.6,34.7,3.8,73.7
+R239,Vegan BLT,American,Vegan,Savory,11,378,10.7,10.2,41.5,7.3,18.6,3.5,39.7
+R240,Keto Burger Bowl,American,Keto,Savory,15,398,36.3,33.6,6.9,2.1,2.9,2.5,64.4
+R241,Bacon and Eggs,American,Keto,Savory,10,347,33.4,35.6,2.5,3.0,10.6,4.5,40.0
+R242,Keto Steak Asparagus,American,Keto,Savory,26,521,52.8,33.5,7.1,3.1,10.6,2.0,64.4
+R243,Keto Chicken Salad,American,Keto,Mild,18,392,36.0,19.0,7.9,3.4,11.6,2.4,33.5
+R244,Keto BLT Salad,American,Keto,Savory,16,305,27.6,24.2,4.6,2.8,17.1,4.7,43.4
+R245,Keto Chili,American,Keto,Spicy,34,390,34.0,23.8,11.0,4.5,18.8,3.3,47.6
+R246,Paleo Chicken Bowl,American,Paleo,Savory,35,372,39.7,13.9,9.0,4.4,27.9,3.7,33.2
+R247,Grass-fed Beef Steak,American,Paleo,Savory,21,514,40.5,28.5,5.8,2.3,10.9,3.9,53.9
+R248,Turkey Lettuce Wrap,American,Paleo,Mild,13,248,36.5,8.1,9.0,3.1,31.8,2.6,85.8
+R249,Paleo Chicken Wings,American,Paleo,Spicy,40,384,37.9,14.1,6.2,1.0,26.6,3.7,65.5
+R250,Grilled Salmon American,American,Paleo,Mild,20,364,43.8,19.4,5.2,2.8,23.5,2.1,98.0
